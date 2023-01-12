@@ -1,0 +1,22 @@
+{
+  "name": "first-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karvrak/test.git"
+  },
+  "keywords": [
+    "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"
+  ],
+  "author": "karvrak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karvrak/test/issues"
+  },
+  "homepage": "https://github.com/karvrak/test#readme"
+}
