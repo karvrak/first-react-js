@@ -1,6 +1,13 @@
+import {Header} from '../component/Header'
+
 export function Overview(){
 
 
-    return<h1>Overview</h1>;
+    return (
+        <>
+        <Header/>
+        <h1>Overview page</h1>
+        </>);
+        
         
 }

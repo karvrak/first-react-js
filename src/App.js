@@ -7,7 +7,7 @@ import {
 
 import {Home} from "./pages/Home";
 import {AddItem} from "./pages/AddItem";
-import {Browse} from "./pages/Browse";
+import {Browser} from "./pages/Browser";
 import {Contact} from "./pages/Contact";
 import {Overview} from "./pages/Overview";
 
@@ -18,7 +18,7 @@ export default function App() {
     <Routes>
       <Route  path="/" element={<Home/>} />
       <Route  path="/addItem" element={<AddItem/>} />
-      <Route  path="/browser" element={<Browse/>} />
+      <Route  path="/browser" element={<Browser/>} />
       <Route  path="/contact" element={<Contact/>} />
       <Route  path="/overview" element={<Overview/>} />
       <Route  path="*" element={<Home/>} />

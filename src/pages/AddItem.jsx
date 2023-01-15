@@ -1,6 +1,13 @@
+import {Header} from '../component/Header'
+
+
 export function AddItem(){
 
 
-    return<h1>AddItem</h1>;
+    return (
+        <>
+        <Header/>
+        <h1>addd item page</h1>
+        </>);
         
 }
