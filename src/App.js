@@ -14,15 +14,18 @@ import {Overview} from "./pages/Overview";
 
 
 export default function App() {
+ 
   return (
-    <Routes>
-      <Route  path="/" element={<Home/>} />
-      <Route  path="/addItem" element={<AddItem/>} />
-      <Route  path="/browser" element={<Browser/>} />
-      <Route  path="/contact" element={<Contact/>} />
-      <Route  path="/overview" element={<Overview/>} />
-      <Route  path="*" element={<Home/>} />
+    <div >
+      <Routes>
+        <Route  path="/" element={<Home/>} />
+        <Route  path="/addItem" element={<AddItem/>} />
+        <Route  path="/browser" element={<Browser/>} />
+        <Route  path="/contact" element={<Contact/>} />
+        <Route  path="/overview" element={<Overview/>} />
+        <Route  path="*" element={<Home/>} />
 
-    </Routes>
+      </Routes>
+    </div>
   );
 }

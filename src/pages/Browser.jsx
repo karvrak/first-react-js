@@ -1,18 +1,17 @@
 
 import {Header} from '../component/Header'
-import {BrowserPage} from '../component/BrowserPage'
-import { PrintCardsGroup } from '../component/PrintCardsGroup';
-export function Browser(){
+import { ImageGallery } from '../component/ImageGallery';
+import { background } from '../config/style';
 
+export function Browser(){
+  
 
     return (
-        <>
+        <div style= {background}>
         <Header/>
 
-        <PrintCardsGroup/>
-
-        <BrowserPage/>
+        <ImageGallery directory='../assets'/>
         
-        </>);
+        </div>);
         
 }

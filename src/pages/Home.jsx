@@ -1,36 +1,15 @@
-import { Link } from 'react-router-dom';
 import { Header } from '../component/Header';
+import { HomePageRoot } from '../component/HomePageRoot';
+import { background } from '../config/style';
 
 export function Home(){
+ 
 
     return (
-        <>
+        <div style= {background}>
             <Header/>
-            <div>                
-                <div >
-                    <nav>
-                    <ul style = {{alignItems:'center'}}>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/addItem">addItem</Link>
-                        </li>
-                        <li>
-                            <Link to="/browser">browser</Link>
-                        </li>
-                        <li>
-                            <Link to="/overview">overview</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">contact</Link>
-                        </li>
-                       
-                    </ul>
-                    </nav>
-                </div>\
-            </div>
-        </>       
+            <HomePageRoot/>
+        </div>       
     );
         
 }

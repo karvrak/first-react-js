@@ -1,13 +1,16 @@
-import {Header} from '../component/Header'
+import React from 'react';
+import {UploadFiles} from '../component/UploadFiles';
+import { background, firstDiv } from '../config/style';
 
 
 export function AddItem(){
-
-
+  
     return (
-        <>
-        <Header/>
-        <h1>addd item page</h1>
-        </>);
+        
+      <div style= {{background}}>
+        <UploadFiles directory='../assets'/>
+
+      </div>
+      );
         
 }
