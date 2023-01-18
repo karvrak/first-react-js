@@ -1,34 +1,25 @@
 import React from 'react';
-import { makeStyles } from '@mui/styles';
+import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
+import { pageSwitcherButton, pageSwitcherDiv} from '../config/style';
 
-const useStyles = makeStyles({
-  root: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    width: '100%',
-  },
-  button: {
-    width: '18%',
-    backgroundColor: 'black',
 
-  },
-});
 
 export function PageSwitcher({ currentPage }) {
-  const classes = useStyles();
   const pageNumbers = [
-    currentPage - 2,
-    currentPage - 1,
-    currentPage,
-    currentPage + 1,
-    currentPage + 2
+    parseInt(currentPage) - 2,
+    parseInt(currentPage) - 1,
+    parseInt(currentPage) ,
+    parseInt(currentPage) + 1,
+    parseInt(currentPage) + 2
+   
+
   ];
 
   return (
-    <div className={classes.root}>
+    <div style={pageSwitcherDiv}>
       {pageNumbers.map((pageNumber) => (
-        <Button className={classes.button} key={pageNumber}>
+        <Button style={pageSwitcherButton} component={Link} to={`../browser/${pageNumber}`} key={pageNumber}>
           {pageNumber}
         </Button>
       ))}

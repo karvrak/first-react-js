@@ -12,8 +12,7 @@ export function HomePageRoot(){
         <div style={firstDiv}  >
             <nav >
                                   
-                    <Button style={buttonHome} component={Link} to="/browser">browser</Button>
-                                
+                    <Button style={buttonHome} component={Link} to="/browser/1">browser</Button> 
                     <Button style={buttonHome} component={Link} to="/contact">contact</Button>
 
             </nav>

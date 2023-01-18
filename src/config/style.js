@@ -42,3 +42,15 @@ export const firstDiv = {
     width: '100%'
 }
 
+export const pageSwitcherButton = {
+    backgroundColor: Gold,
+
+}
+export const pageSwitcherDiv = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    position: 'fixed',
+    bottom: 0,
+    width: '100%',
+    
+}
