@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
-import { pageSwitcherButton, pageSwitcherDiv} from '../config/style';
+import { pageSwitcherButton, pageSwitcherDiv,bg} from '../config/style';
 
 
 
@@ -17,7 +17,7 @@ export function PageSwitcher({ currentPage }) {
   ];
 
   return (
-    <div style={pageSwitcherDiv}>
+    <div style={{...bg,...pageSwitcherDiv}}>
       {pageNumbers.map((pageNumber) => (
         <Button style={pageSwitcherButton} component={Link} to={`../browser/${pageNumber}`} key={pageNumber}>
           {pageNumber}

@@ -1,15 +1,19 @@
+import { useParams } from 'react-router-dom';
 import {Header} from '../component/Header'
-import { background } from '../config/style';
+import { ImageOverview } from '../component/ImageOverview';
+import { background ,bg} from '../config/style';
 
 
 export function Overview(){
 
-
+    let para = useParams();
+    let imageId = para.id || 1;
     return (
-        <div style= {background}>
+        <div style=  {{...bg,...background}}>
         <Header/>
-        <h1>Overview page</h1>
+        <ImageOverview  imageId={imageId}/>
         </div>);
+        
         
         
 }

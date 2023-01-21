@@ -1,12 +1,12 @@
 import { Header } from '../component/Header';
 import { HomePageRoot } from '../component/HomePageRoot';
-import { background } from '../config/style';
+import { background, bg } from '../config/style';
 
 export function Home(){
  
 
     return (
-        <div style= {background}>
+        <div style= {{...bg,...background}}>
             <Header/>
             <HomePageRoot/>
         </div>       

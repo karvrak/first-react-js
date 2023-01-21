@@ -1,36 +1,27 @@
 import React, { useState } from 'react';
-import { Grid, Paper } from '@mui/material';
-import FileReaderInput from 'react-file-reader';
-import { firstDiv} from '../config/style';
+import { Link } from 'react-router-dom';
+import { Grid } from '@mui/material';
+import { imageStyleBrowser ,bg} from '../config/style';
+export function ImageGallery({currentPage}) {
+  const [imagesPerPage] = useState(9); //number of images per page
 
-export function ImageGallery() {
-  const [images, setImages] = useState([]);
+ 
 
-  const handleChange = (e, results) => {
-    results.forEach((result) => {
-      const [e, file] = result;
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        setImages((prevImages) => [...prevImages, event.target.result]);
-      };
-      reader.readAsDataURL(file);
-    });
-  };
+  const indexOfFirstImg = currentPage * imagesPerPage - imagesPerPage;
 
   return (
-    <div style={firstDiv}>
-      <FileReaderInput as="binary" id="my-file-input" onChange={handleChange}>
-        <button>Choose Image</button>
-      </FileReaderInput>
-      <Grid container spacing={2}>
-        {images.map((image, index) => (
-          <Grid item xs={4} key={index}>
-            <Paper>
-              <img src={image} alt={`Image ${index + 1}`} />
-            </Paper>
-          </Grid>
-        ))}
-      </Grid>
-    </div>
+      <Grid style={bg} container spacing={4}>
+      {Array(9).fill().map((_, i) => (
+        <Grid key={i} item xs={4}>
+          <Link to={`../overview/${indexOfFirstImg+i+1}`}>
+          <img 
+            style={imageStyleBrowser} 
+            src={`/assets/C${indexOfFirstImg+i+1}.jpg`} 
+            alt={`Card ${indexOfFirstImg+i+1}`} 
+          />
+          </Link>
+        </Grid>
+      ))}
+    </Grid>
   );
 }
