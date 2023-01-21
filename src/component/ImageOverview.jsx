@@ -10,8 +10,8 @@ export function ImageOverview({imageId}) {
           
           <img 
             style={imageStyleOverview} 
-            src={`/assets/C${imageId}.jpg`} 
-            alt={`Image ${imageId}`} 
+            src={`${process.env.PUBLIC_URL}/assets/C${imageId}.jpg`} 
+            alt={`card ${imageId}`} 
           />
        
         

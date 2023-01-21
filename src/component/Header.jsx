@@ -8,7 +8,7 @@ export function Header(){
         <>
             <Box style={header}>
                 <Link to="/">
-                    <img style = {{marginLeft:'1vh' ,width:'15vh' }} src="/set-symbol.png" alt="homepage"/>
+                    <img style = {{marginLeft:'1vh' ,width:'15vh' }} src={`${process.env.PUBLIC_URL}/set-symbol.png`} alt="homepage"/>
                 </Link>
             </Box>
         </>

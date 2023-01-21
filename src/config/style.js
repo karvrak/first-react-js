@@ -42,13 +42,15 @@ export const firstDiv = {
 export const pageSwitcherButton = {
     backgroundColor: Gold,
     color: Black,
+    marginLeft: '0.5%',
+    marginRight: '0.5%',
+
 }
 export const pageSwitcherDiv = {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: '45vh',
-    paddingRight: '45vh'
+    paddingTop:"5vh",
+    paddingLeft:"50%"
 
 }
 export const imageStyleBrowser = {
@@ -58,9 +60,22 @@ export const imageStyleBrowser = {
 
 export const imageStyleOverview = {
     backgroundColor: Black,
-    width: '42%',
+    width: '25%',
   
 
 }
+export const imageGalleryContainer = {
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginTop: '10vh',
+
+  
+}
+export const GridBrowser = {
+    
+    paddingLeft : '15%',
+    paddingRight : '10%',
+
+  }
 
 
