@@ -1,6 +1,7 @@
 import data from "../data/tab.json";
 import React, { useState, useEffect } from 'react';
 import { imageDescStyle } from "../config/style";
+import ReactHtmlParser from 'html-react-parser';
 
 
 export function ImageDesc({imageId}) {
@@ -19,12 +20,13 @@ export function ImageDesc({imageId}) {
     <div style={imageDescStyle} >
       <h2>{card.name}</h2>
       <p> {card.type}</p>
-      
+
       <img 
               src={`${process.env.PUBLIC_URL}/assets/setSymbol/set-symbol-${card.rarity}.png`} 
               alt={`rarity : ${card.rarity}`} 
-      />           
-      <p>Rule Text: {card.RuleText}</p>
+      />  
+      {ReactHtmlParser(card.RuleText)}
+         
       {card.flavorText && <p>Flavor Text: {card.flavorText}</p>}
       {card.pt && <p>Power/Toughness: {card.pt}</p>}
      </div>      
