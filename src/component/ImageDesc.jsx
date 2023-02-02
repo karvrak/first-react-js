@@ -19,6 +19,7 @@ export function ImageDesc({imageId}) {
     <div style={imageDescStyle} >
       <h2>{card.name}</h2>
       <p> {card.type}</p>
+      
       <img 
               src={`${process.env.PUBLIC_URL}/assets/setSymbol/set-symbol-${card.rarity}.png`} 
               alt={`rarity : ${card.rarity}`} 
