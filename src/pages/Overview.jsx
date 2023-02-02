@@ -4,7 +4,7 @@ import { ImageOverview } from '../component/ImageOverview';
 import { background, OverviewFlex,bgColor } from '../config/style';
 import { ImageDesc } from '../component/ImageDesc';
 import { PageSwitcher } from '../component/PageSwitcher';
-
+import  {ErrorBoundary}  from '../component/Error' ;
 export function Overview(){
 
     let para = useParams();
@@ -17,7 +17,10 @@ export function Overview(){
 
             <div style={OverviewFlex}>
             <ImageOverview  imageId={imageId}/>
+            <ErrorBoundary>
             <ImageDesc  imageId={imageId}/>
+
+            </ErrorBoundary>
             </div>            
             <PageSwitcher currentPage={imageId} PageLinked='../overview/'/>
 

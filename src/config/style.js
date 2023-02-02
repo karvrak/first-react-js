@@ -7,9 +7,11 @@ export const background  = {
     top: 0,
     left: 0
 }
+
 export const bgColor = {
     backgroundColor: Black, 
-    }
+}
+
 export const header = {
     backgroundColor: Darkpurple,
     height: '13vh',
@@ -29,6 +31,7 @@ export const buttonHome = {
     padding: '10vh 20vh',
 
 }
+
 export const firstDiv = {
     position: 'absolute',     
     top: 0,
@@ -46,6 +49,7 @@ export const pageSwitcherButton = {
     marginRight: '0.5%',
 
 }
+
 export const pageSwitcherButtonDiseable = {
     backgroundColor: DarkRed,
     color: Black,
@@ -53,12 +57,14 @@ export const pageSwitcherButtonDiseable = {
     marginRight: '0.5%',
 
 }
+
 export const pageSwitcherDiv = {
     display: 'flex',
     alignItems: 'center',
     paddingTop:"5vh",
 
 }
+
 export const imageStyleBrowser = {
     width: '25vh',
     height: '35vh',
@@ -66,30 +72,35 @@ export const imageStyleBrowser = {
 
 export const imageStyleOverview = {
     backgroundColor: Black,
-
-  
-
 }
+
 export const imageGalleryContainer = {
   alignItems: 'center',
   justifyContent: 'center',
   marginTop: '10vh',
-
   
 }
+
 export const GridBrowser = {
     
     paddingLeft : '15%',
     paddingRight : '10%',
 
-  }
+}
+
 export const OverviewFlex = {
     display: 'flex',
+    height: '61%',
+    
 }
 
 export const imageDescStyle = {
-   width: "45vh",
-   backgroundColor: Gold, 
+   width: "44vh",
+   backgroundColor: White, 
 
+}
+
+export const flavorStyle = {
+    fontStyle: "italic",
 }
 
