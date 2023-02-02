@@ -1,17 +1,13 @@
 import React from 'react';
-import {UploadFiles} from '../component/UploadFiles';
-import { background, bg, firstDiv } from '../config/style';
+import { background, bgColor } from '../config/style';
 
 
 export function AddItem(){
   
-    return (
+    return (   
+      <div style= {{...bgColor,...background}}>
         
-      <div style= {{...bg,...background}}>
-        
-        <UploadFiles directory='../assets'/>
-
       </div>
-      );
+    );
         
 }

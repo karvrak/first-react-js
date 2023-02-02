@@ -4,19 +4,13 @@ import { Button } from '@mui/material';
 import { buttonHome, firstDiv} from '../config/style';
 
 export function HomePageRoot(){
-    
-
        
-    return (     
-              
-        <div style={firstDiv}  >
-            <nav >
-                                  
+    return (            
+        <div style={firstDiv}>
+            <nav >                        
                     <Button style={buttonHome} component={Link} to="/browser/1">browser</Button> 
                     <Button style={buttonHome} component={Link} to="/contact">contact</Button>
-
             </nav>
         </div>
-  
     )
 }    

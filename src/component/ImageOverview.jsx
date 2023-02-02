@@ -1,20 +1,14 @@
 import { imageStyleOverview } from '../config/style';
 
-
-
 export function ImageOverview({imageId}) {
-    console.log(imageId);
-    
+
   return (
-    <div>
-          
+    <div >
           <img 
             style={imageStyleOverview} 
-            src={`${process.env.PUBLIC_URL}/assets/C${imageId}.jpg`} 
+            src={`${process.env.PUBLIC_URL}/assets/Cards/C${imageId}.jpg`} 
             alt={`card ${imageId}`} 
-          />
-       
-        
-    </div>
+          />       
+     </div>      
   );
 }

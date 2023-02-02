@@ -1,4 +1,4 @@
-import { Black, DarkGreen, Gold, Darkpurple, DarkBlue, White} from "./colors"
+import { Black, Darkpurple,Gold, White, BrightRed, DarkRed} from "./colors"
 
 export const background  = {   
     width: '100%',
@@ -7,12 +7,12 @@ export const background  = {
     top: 0,
     left: 0
 }
-export const bg = {
+export const bgColor = {
     backgroundColor: Black, 
     }
 export const header = {
     backgroundColor: Darkpurple,
-    height: '15vh',
+    height: '13vh',
     weight: '15vh'
 }
 
@@ -40,7 +40,14 @@ export const firstDiv = {
 }
 
 export const pageSwitcherButton = {
-    backgroundColor: Gold,
+    backgroundColor: BrightRed,
+    color: Black,
+    marginLeft: '0.5%',
+    marginRight: '0.5%',
+
+}
+export const pageSwitcherButtonDiseable = {
+    backgroundColor: DarkRed,
     color: Black,
     marginLeft: '0.5%',
     marginRight: '0.5%',
@@ -50,7 +57,6 @@ export const pageSwitcherDiv = {
     display: 'flex',
     alignItems: 'center',
     paddingTop:"5vh",
-    paddingLeft:"50%"
 
 }
 export const imageStyleBrowser = {
@@ -60,7 +66,7 @@ export const imageStyleBrowser = {
 
 export const imageStyleOverview = {
     backgroundColor: Black,
-    width: '25%',
+
   
 
 }
@@ -77,5 +83,13 @@ export const GridBrowser = {
     paddingRight : '10%',
 
   }
+export const OverviewFlex = {
+    display: 'flex',
+}
 
+export const imageDescStyle = {
+   width: "45vh",
+   backgroundColor: Gold, 
+
+}
 

@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import {Header} from '../component/Header'
 import { ImageGallery } from '../component/ImageGallery';
 import { PageSwitcher } from '../component/PageSwitcher';
-import { background, bg } from '../config/style';
+import { background, bgColor } from '../config/style';
 
 export function Browser(){
   
@@ -11,11 +11,11 @@ export function Browser(){
 
 
     return (
-        <div style= {{...bg,...background}}>
-        <Header/>
-        <ImageGallery  currentPage={pageNumber}/>
-
-        <PageSwitcher currentPage={pageNumber}/>
-        </div>);
+        <div style= {{...bgColor,...background}}>
+            <Header/>
+            <ImageGallery  currentPage={pageNumber}/>
+            <PageSwitcher currentPage={pageNumber} PageLinked='../browser/'/>
+        </div>
+    );
         
 }
