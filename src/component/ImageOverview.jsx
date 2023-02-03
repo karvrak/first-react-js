@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 
 export function ImageOverview({imageId}) {
 
-  const cardRef = useRef();
+ /* const cardRef = useRef();
   
   const handleMouseMove = (e) => {
     let elRect = cardRef.current.getBoundingClientRect();
@@ -32,11 +32,11 @@ export function ImageOverview({imageId}) {
     cardRef.current.children[1].style.transform = `rotateX(0) rotateY(0)`;
 
   };
-
+*/
 
   return (
     <div style={containerAnime} >
-      <div ref={cardRef} style={CardAnime} id={imageId} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+      <div /*ref={cardRef}*/ style={CardAnime} id={imageId}/* onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}*/>
         <div style={ContentAnime} >
            
             <img 
