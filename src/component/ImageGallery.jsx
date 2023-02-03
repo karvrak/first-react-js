@@ -18,7 +18,7 @@ export function ImageGallery({currentPage}) {
                   <img 
                
                   style={imageStyleBrowser}
-                  src={`${process.env.PUBLIC_URL}/assets/Cards/C${indexOfFirstImg+i+1}.jpg`} 
+                  src={`../assets/Cards/C${indexOfFirstImg+i+1}.jpg`} 
                   alt={`Card ${indexOfFirstImg+i+1}`} 
                   /> 
               </a>  
