@@ -18,7 +18,7 @@ export function Overview(){
             <div style={OverviewFlex}>
             <ImageOverview  imageId={imageId}/>
             <ErrorBoundary>
-            {/*<ImageDesc  imageId={imageId}/>*/}
+            {<ImageDesc  imageId={imageId}/>}
 
             </ErrorBoundary>
             </div>            
