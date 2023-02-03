@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import {Header} from '../component/Header'
 import { ImageOverview } from '../component/ImageOverview';
-import { background, OverviewFlex,bgColor } from '../config/style';
+import { background, OverviewFlex} from '../config/style';
 import { ImageDesc } from '../component/ImageDesc';
 import { PageSwitcher } from '../component/PageSwitcher';
 import  {ErrorBoundary}  from '../component/Error' ;
@@ -10,7 +10,7 @@ export function Overview(){
     let para = useParams();
     let imageId = para.id || 1;
     return (
-        <div style=  {{...bgColor,...background}}>
+        <div style=  {background}>
             <Header/>
 
             
@@ -18,7 +18,7 @@ export function Overview(){
             <div style={OverviewFlex}>
             <ImageOverview  imageId={imageId}/>
             <ErrorBoundary>
-            <ImageDesc  imageId={imageId}/>
+            {<ImageDesc  imageId={imageId}/>}
 
             </ErrorBoundary>
             </div>            

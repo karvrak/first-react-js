@@ -1,15 +1,13 @@
-import { Black, Darkpurple,Gold, White, BrightRed, DarkRed} from "./colors"
+import { Black, Darkpurple,Gold, White, BrightRed, DarkRed, Gray} from "./colors"
 
 export const background  = {   
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
+    position: "fixed",
+    width: "100%",
+    height: "100%",
+    left: 0,
     top: 0,
-    left: 0
-}
-
-export const bgColor = {
-    backgroundColor: Black, 
+    backgroundColor:Gold  ,
+    
 }
 
 export const header = {
@@ -58,21 +56,12 @@ export const pageSwitcherButtonDiseable = {
 
 }
 
-export const pageSwitcherDiv = {
-    display: 'flex',
-    alignItems: 'center',
-    paddingTop:"5vh",
-
-}
-
 export const imageStyleBrowser = {
     width: '25vh',
     height: '35vh',
 }
 
-export const imageStyleOverview = {
-    backgroundColor: Black,
-}
+
 
 export const imageGalleryContainer = {
   alignItems: 'center',
@@ -96,11 +85,63 @@ export const OverviewFlex = {
 
 export const imageDescStyle = {
    width: "44vh",
-   backgroundColor: White, 
-
+   backgroundColor: Gray, 
+   borderRadius: '3vh',
 }
 
 export const flavorStyle = {
     fontStyle: "italic",
 }
 
+
+export const GalleryWrappe = {
+    display:" grid",
+    gridGap: "5vh",
+    gridTemplateColumns: "repeat(5, 225px)",
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '2vh',
+    
+}
+
+export const SwitcherStyle = {   
+    marginTop: '2vh'
+}
+
+export const containerAnime = {   
+
+}
+export const CardAnime = {   
+    width: "375px",
+    height: "523px",
+    perspective: "1000px",
+
+}
+export const ContentAnime = {   
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
+    borderRadius: "16px",
+    transition: "all 0.5s ease-in-out",
+    backgroundColor: Black,
+}
+export const GlowAnime = {
+    position: "absolute",
+    top: "0",
+    left: "0",
+    width: "100%",
+    height: "100%",
+    transition: "all 0.5s ease-in-out",
+    borderRadius: "16px",
+    mixBlendMode: "hard-light",
+    opacity: "0.5",
+
+    background: "radial-gradient(circle at 50% 0%, rgb(184, 196, 211), transparent"
+}
+export const imageStyleOverview = {
+   
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+
+}

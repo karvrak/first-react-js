@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
-import { pageSwitcherButton, pageSwitcherButtonDiseable, pageSwitcherDiv,bgColor} from '../config/style';
+import { pageSwitcherButton, pageSwitcherButtonDiseable, SwitcherStyle} from '../config/style';
 
 
 export function PageSwitcher({ currentPage, PageLinked }) {
@@ -14,11 +14,11 @@ export function PageSwitcher({ currentPage, PageLinked }) {
   ];
 
   return (
-    <div style={{...bgColor,...pageSwitcherDiv}}>
+    <div style={SwitcherStyle} >
       {pageNumbers.map((pageNumber) => (
         <Button style={pageNumber == currentPage || pageNumber < 1? pageSwitcherButtonDiseable : pageSwitcherButton  } component={Link} to={`${PageLinked}${pageNumber}`} key={pageNumber} disabled={pageNumber == currentPage || pageNumber < 1}>
           {pageNumber}
-        </Button>
+        </Button>    
       ))}
     </div>
   );

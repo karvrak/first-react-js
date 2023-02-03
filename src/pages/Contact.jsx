@@ -1,10 +1,10 @@
 import {Header} from '../component/Header'
-import { bgColor ,background} from '../config/style';
+import {background} from '../config/style';
 
 export function Contact(){
    
     return (
-        <div style= {{...bgColor,...background}}>
+        <div style= {{...background}}>
             <Header/>
         </div>
         );

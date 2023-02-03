@@ -9,3 +9,4 @@ export const BrightRed = '#FF4500';
 export const Gold = '#FFD700';
 export const Black = '#000000';
 export const White = '#FFFFFF';
+export const Gray = '#C0C0C0';

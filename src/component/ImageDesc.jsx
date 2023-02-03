@@ -33,7 +33,7 @@ export function ImageDesc({imageId}) {
       <img 
               src={`${process.env.PUBLIC_URL}/assets/setSymbol/set-symbol-${card.rarity}.png`} 
               alt={`rarity : ${card.rarity}`} 
-      /> 
+      /> <br/>
 
       {ReactHtmlParser(card.RuleText,options)}
       {<p style={flavorStyle}>{card.flavorText}</p>}

@@ -1,31 +1,30 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Grid } from '@mui/material';
-import { imageStyleBrowser , bgColor, imageGalleryContainer, GridBrowser} from '../config/style';
+import React, { useState,useRef  } from 'react';
+import { imageStyleBrowser, GalleryWrappe} from '../config/style';
 
 
 export function ImageGallery({currentPage}) {
-  const [imagesPerPage] = useState(9); //number of images per page
+  const [imagesPerPage] = useState(10); //number of images per page
 
 
   const indexOfFirstImg = currentPage * imagesPerPage - imagesPerPage;
 
+  
   return (
-    <div style={imageGalleryContainer}>
-      <Grid style={{...bgColor,...GridBrowser}} container spacing={4}>
-        {Array(imagesPerPage).fill().map((_, i) => (
-          <Grid key={i} item xs={4}>
-            <Link to={`../overview/${indexOfFirstImg+i+1}`}>
-              <img 
-              style={imageStyleBrowser} 
-              src={`${process.env.PUBLIC_URL}/assets/Cards/C${indexOfFirstImg+i+1}.jpg`} 
-              alt={`Card ${indexOfFirstImg+i+1}`} 
-              />           
-            </Link>
+    <div style={GalleryWrappe}>
+          {Array(imagesPerPage).fill().map((_, i) => (
+    
             
-          </Grid>
-        ))}
-      </Grid>
+              <a  href={`../overview/${indexOfFirstImg+i+1}`}>
+                  <img 
+               
+                  style={imageStyleBrowser}
+                  src={`${process.env.PUBLIC_URL}/assets/Cards/C${indexOfFirstImg+i+1}.jpg`} 
+                  alt={`Card ${indexOfFirstImg+i+1}`} 
+                  /> 
+              </a>  
+            
+          ))}
     </div>
   );
+
 }
