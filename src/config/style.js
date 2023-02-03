@@ -114,7 +114,8 @@ export const containerAnime = {
 export const CardAnime = {   
     width: "375px",
     height: "523px",
-    perspective: "1000px",
+    perspective: "1200px",
+
 
 }
 export const ContentAnime = {   
@@ -122,7 +123,7 @@ export const ContentAnime = {
     height: "100%",
     overflow: "hidden",
     borderRadius: "16px",
-    transition: "all 0.5s ease-in-out",
+    transition: "all 0.05s ease-in-out",
     backgroundColor: Black,
 }
 export const GlowAnime = {
@@ -131,11 +132,10 @@ export const GlowAnime = {
     left: "0",
     width: "100%",
     height: "100%",
-    transition: "all 0.5s ease-in-out",
+    transition: "all 0.05s ease-in-out",
     borderRadius: "16px",
     mixBlendMode: "hard-light",
     opacity: "0.5",
-
     background: "radial-gradient(circle at 50% 0%, rgb(184, 196, 211), transparent"
 }
 export const imageStyleOverview = {

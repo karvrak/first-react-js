@@ -21,13 +21,9 @@ export function ImageOverview({imageId}) {
     let glowY = y / elRect.height *100;    
 
 
-    cardRef.current.children[0].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1.1)`;
-    cardRef.current.children[1].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1.1)`;
+    cardRef.current.children[0].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1)`;
+    cardRef.current.children[1].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1)`;
     cardRef.current.children[1].style.background = `radial-gradient(circle at ${glowX}%${glowY}%, rgb(184, 196, 211), transparent`;
-
-
-
-   
     
   };
 
