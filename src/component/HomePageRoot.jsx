@@ -1,13 +1,19 @@
 import React from "react";
 import { buttonHome, firstDiv} from '../config/style';
+import { Link } from 'react-router-dom';
 
 export function HomePageRoot(){
        
     return (            
         <div style={firstDiv}>
                       
-                <a style={buttonHome}  href="/browser/1">Browser</a>
-                <a style={buttonHome} href="/contact">Contact</a>                       
+                <Link to="/browser/1">
+                    <p style={buttonHome} >Browser</p>
+                </Link>
+                <Link to="/contact">
+                    <p style={buttonHome} >contact</p>
+
+                </Link>                     
 
         </div>
     )

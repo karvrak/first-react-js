@@ -4,7 +4,7 @@
         "name": "Anduril, Flamme de l’Ouest",
         "type": "Artéfact Légendaire : Equipement",
         "rarity": "mythicrare",
-        "RuleText": "<p>La créature équipée gagne +2/+0 et a la défense talismanique.<br>Quand la créature équipée inflige des blessures de combat à une créature noire ou à un planeswalker noir, exilez ce permanent et mettez un marqueur +1/+1 sur la créature équipée.<br>Equipement : <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'></p>",
+        "RuleText": "<p>La créature équipée gagne +2/+0 et a la défense talismanique.<br>Quand la créature équipée inflige des blessures de combat à une créature noire ou à un planeswalker noir, exilez ce permanent et mettez un marqueur +1/+1 sur la créature équipée.<br>Equipement : <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'></p>",
         "flavorText": "",
         "pt": ""
     },
@@ -13,7 +13,7 @@
         "name": "Anneau de Barahir",
         "type": "Artéfact Légendaire : Anneaux",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'></span><br><span class=\"symbol\"><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Mettez sur le champ de bataille depuis votre main une carte de créature légendaire dont la valeur de mana est X.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'></span><br><span class=\"symbol\"><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Mettez sur le champ de bataille depuis votre main une carte de créature légendaire dont la valeur de mana est X.",
         "flavorText": "",
         "pt": ""
     },
@@ -23,7 +23,7 @@
         "type": "Artéfact Légendaire : Anneaux",
         "rarity": "mythicrare",
         
-        "RuleText": "Indestructible<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-4.png' alt='4' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>:  Acquerrez le contrôle de la créature ciblée tant que l’Anneau Unique reste engagé.<br>Vous pouvez choisir de ne pas dégager l’Anneau Unique pendant votre étape de dégagement. Si vous faites ainsi, mettez un marqueur +1/-1 sur la créature contrôlée.",
+        "RuleText": "Indestructible<br><img src='/first-react-js/assets/mana/magic-mana-small-4.png' alt='4' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>:  Acquerrez le contrôle de la créature ciblée tant que l’Anneau Unique reste engagé.<br>Vous pouvez choisir de ne pas dégager l’Anneau Unique pendant votre étape de dégagement. Si vous faites ainsi, mettez un marqueur +1/-1 sur la créature contrôlée.",
         "flavorText": "Un anneau pour les gouverner tous.",
         "pt": ""
     },
@@ -32,7 +32,7 @@
         "name": "Arbre du Gondor",
         "type": "Artéfact",
         "rarity": "rare",
-        "RuleText": "A chaque fois qu’un permanent légendaire arrive sur le champ de bataille sous votre contrôle, mettez deux marqueurs floraison sur l’Arbre du Gondor.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez l’Arbre du Gondor: Cherchez dans votre bibliothèque une carte de créature légendaire avec une valeur de mana inférieure au nombre de marqueur floraison sur l’Arbre du Gondor et mettez-la sur le champ de bataille.",
+        "RuleText": "A chaque fois qu’un permanent légendaire arrive sur le champ de bataille sous votre contrôle, mettez deux marqueurs floraison sur l’Arbre du Gondor.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez l’Arbre du Gondor: Cherchez dans votre bibliothèque une carte de créature légendaire avec une valeur de mana inférieure au nombre de marqueur floraison sur l’Arbre du Gondor et mettez-la sur le champ de bataille.",
         "flavorText": "",
         "pt": ""
     },
@@ -41,7 +41,7 @@
         "name": "Arc des Galadrin",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée a “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cette créature inflige 2 blessures à la créature attaquante ou bloqueuse ciblée”.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'> si la créature équipée est un elfe, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'> sinon.",
+        "RuleText": "La créature équipée a “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cette créature inflige 2 blessures à la créature attaquante ou bloqueuse ciblée”.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'> si la créature équipée est un elfe, <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'> sinon.",
         "flavorText": "",
         "pt": ""
     },
@@ -59,7 +59,7 @@
         "name": "Arquelance",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, engagez X créatures ciblées que vous contrôlez : Infligez X blessures à la créature ciblée. Si c’est un dragon, mettez aussi X marqueurs -1/-1 dessus.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, engagez X créatures ciblées que vous contrôlez : Infligez X blessures à la créature ciblée. Si c’est un dragon, mettez aussi X marqueurs -1/-1 dessus.",
         "flavorText": "",
         "pt": ""
     },
@@ -68,7 +68,7 @@
         "name": "Bac de Chateaubouc",
         "type": "Artéfact",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Exilez une créature ciblée que vous contrôlez, puis renvoyez-la sous le contrôle de son propriétaire.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Exilez une créature ciblée que vous contrôlez, puis renvoyez-la sous le contrôle de son propriétaire.",
         "flavorText": "",
         "pt": ""
     },
@@ -77,7 +77,7 @@
         "name": "Bâton de Magicien",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: Le Bâton de Magicien inflige une blessure à n’importe quelle cible.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Engagez le permanent ciblé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>: Piochez une carte.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: Le Bâton de Magicien inflige une blessure à n’importe quelle cible.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Engagez le permanent ciblé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>: Piochez une carte.",
         "flavorText": "",
         "pt": ""
     },
@@ -86,7 +86,7 @@
         "name": "Cape Elfique",
         "type": "Artéfact : Equipement",
         "rarity": "common",
-        "RuleText": "La créature équipée ne peut être bloquée tant que sa force est inférieure ou égale à 2.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'>",
+        "RuleText": "La créature équipée ne peut être bloquée tant que sa force est inférieure ou égale à 2.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -104,7 +104,7 @@
         "name": "Cor du Gondor",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "A chaque fois que la créature équipée attaque, créez un jeton de créature 1/1 blanche Humain et Soldat engagé et attaquant, puis les créatures attaquantes gagnent +1/+1 jusqu’à la fin du tour.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
+        "RuleText": "A chaque fois que la créature équipée attaque, créez un jeton de créature 1/1 blanche Humain et Soldat engagé et attaquant, puis les créatures attaquantes gagnent +1/+1 jusqu’à la fin du tour.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -113,7 +113,7 @@
         "name": "Corde Elfique",
         "type": "Artefact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée que vous contrôlez acquiert la traversée des montagnes et la protection contre les murs jusqu’à la fin du tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée qui vous a infligé des blessures ce tour ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée que vous contrôlez acquiert la traversée des montagnes et la protection contre les murs jusqu’à la fin du tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée qui vous a infligé des blessures ce tour ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
         "flavorText": "",
         "pt": ""
     },
@@ -122,7 +122,7 @@
         "name": "Cotte de Maille en Mithril",
         "type": "Artéfact : Equipement",
         "rarity": "common",
-        "RuleText": "La créature équipée gagne +0/+3.<br>Equipement : <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
+        "RuleText": "La créature équipée gagne +0/+3.<br>Equipement : <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
         "flavorText": "Vous êtes plein de surprises, monsieur Sacquet !",
         "pt": ""
     },
@@ -131,7 +131,7 @@
         "name": "Couteau du Druide",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée gagne +1/+0 et a le lien de vie.<br>A chaque fois que vous gagnez au moins trois points de vie, dégagez le terrain de base ciblé.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
+        "RuleText": "La créature équipée gagne +1/+0 et a le lien de vie.<br>A chaque fois que vous gagnez au moins trois points de vie, dégagez le terrain de base ciblé.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -140,7 +140,7 @@
         "name": "Dard",
         "type": "Artéfact Légendaire : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée gagne +1/+0 et a la vigilance. Elle a l’initiative tant qu’un de vos adversaires contrôle un orque ou un gobelin.<br>Equipement : <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
+        "RuleText": "La créature équipée gagne +1/+0 et a la vigilance. Elle a l’initiative tant qu’un de vos adversaires contrôle un orque ou un gobelin.<br>Equipement : <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -149,7 +149,7 @@
         "name": "Déchiqueteuse",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez un marqueur -1/-1 sur une créature ciblée qui vous a infligé des blessures ce tour. La Déchiqueteuse vous inflige une blessure.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez un marqueur -1/-1 sur une créature ciblée qui vous a infligé des blessures ce tour. La Déchiqueteuse vous inflige une blessure.",
         "flavorText": "Eh bien s’ils ne veulent pas parler, nous les ferons hurler. Apportez la déchiqueteuse ! Apportez la broyeuse d’os !",
         "pt": ""
     },
@@ -158,7 +158,7 @@
         "name": "Etoile du Soir",
         "type": "Artéfact",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez l’Etoile du Soir: La créature ciblée acquiert la protection contre la couleur de votre choix jusqu’à la fin du tour. Si c’est une créature légendaire, piochez une carte.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez l’Etoile du Soir: La créature ciblée acquiert la protection contre la couleur de votre choix jusqu’à la fin du tour. Si c’est une créature légendaire, piochez une carte.",
         "flavorText": "",
         "pt": ""
     },
@@ -167,7 +167,7 @@
         "name": "Forges de Thror",
         "type": "Artéfact",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Détruisez l’artéfact ciblé avec une valeur de mana de X. Si vous faites ainsi, créez trois jetons d’artéfact Or. Ils ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Détruisez l’artéfact ciblé avec une valeur de mana de X. Si vous faites ainsi, créez trois jetons d’artéfact Or. Ils ont “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.",
         "flavorText": "",
         "pt": ""
     },
@@ -176,7 +176,7 @@
         "name": "Fragments de Narsil",
         "type": "Artéfact",
         "rarity": "rare",
-        "RuleText": "Les Fragments de Narsil arrivent sur le champ de bataille engagés.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez les Fragments de Narsil: Cherchez dans votre bibliothèque une carte d’équipement légendaire de valeur de mana inférieure ou égale à <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>, mettez-la sur le champ de bataille, puis mélangez. Vous pouvez attacher cet équipement à une créature légendaire que vous contrôlez.",
+        "RuleText": "Les Fragments de Narsil arrivent sur le champ de bataille engagés.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez les Fragments de Narsil: Cherchez dans votre bibliothèque une carte d’équipement légendaire de valeur de mana inférieure ou égale à <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>, mettez-la sur le champ de bataille, puis mélangez. Vous pouvez attacher cet équipement à une créature légendaire que vous contrôlez.",
         "flavorText": "",
         "pt": ""
     },
@@ -185,7 +185,7 @@
         "name": "Garde-Manger de Saroumane",
         "type": "Artéfact",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un marqueur provision sur le Garde-Manger de Saroumane<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Gagnez un point de vie par marqueur provision sur le Garde-Manger de Saroumane. Retirez-en un marqueur provision. ",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un marqueur provision sur le Garde-Manger de Saroumane<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Gagnez un point de vie par marqueur provision sur le Garde-Manger de Saroumane. Retirez-en un marqueur provision. ",
         "flavorText": "",
         "pt": ""
     },
@@ -194,7 +194,7 @@
         "name": "Gargouille de Minas Morgûl",
         "type": "Créature Artéfact : Gargouille et Mur ",
         "rarity": "common",
-        "RuleText": "Défenseur<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
+        "RuleText": "Défenseur<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
         "flavorText": "",
         "pt": "1/4"
     },
@@ -203,7 +203,7 @@
         "name": "Glamdring",
         "type": "Artéfact Légendaire : Equipement",
         "rarity": "rare",
-        "RuleText": "La créature équipée gagne +3/+0 et a la vigilance et l’initiative. A chaque fois que cette créature inflige des blessures de combat à une créature noire ou rouge, piochez une carte.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>",
+        "RuleText": "La créature équipée gagne +3/+0 et a la vigilance et l’initiative. A chaque fois que cette créature inflige des blessures de combat à une créature noire ou rouge, piochez une carte.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'>",
         "flavorText": "Il tient le marteau à enemi, la batteuse, brillante comme le soleil !",
         "pt": ""
     },
@@ -212,7 +212,7 @@
         "name": "Hache de Balïn",
         "type": "Artéfact : Equipement",
         "rarity": "common",
-        "RuleText": "La créature équipée gagne +2/+0. <br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'> si la créature équipée est un nain, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'> sinon.",
+        "RuleText": "La créature équipée gagne +2/+0. <br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'> si la créature équipée est un nain, <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'> sinon.",
         "flavorText": "",
         "pt": ""
     },
@@ -221,7 +221,7 @@
         "name": "Lumière d’Elendil",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "Les créatures avec l’intimidation perdent cette capacité.<br>La créature équipée gagne +0/+1, a la protection contre le noir et “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>”.<br>Equipement : <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
+        "RuleText": "Les créatures avec l’intimidation perdent cette capacité.<br>La créature équipée gagne +0/+1, a la protection contre le noir et “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>”.<br>Equipement : <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>",
         "flavorText": "Quant à vous, Frodon Sacquet, je vous donne la lumière d’Elendil. Puisse-t-elle vous protéger dans les endroits les plus sombres.",
         "pt": ""
     },
@@ -230,7 +230,7 @@
         "name": "Marteau de Guerre des Nains",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée gagne +3/+0.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><br>Quand vous équipez une créature avec le Marteau de Guerre des Nains, elle se bat contre une autre créature non-nain ciblée.",
+        "RuleText": "La créature équipée gagne +3/+0.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><br>Quand vous équipez une créature avec le Marteau de Guerre des Nains, elle se bat contre une autre créature non-nain ciblée.",
         "flavorText": "",
         "pt": ""
     },
@@ -239,7 +239,7 @@
         "name": "Mirroir de Galadrielle",
         "type": "Artéfact Légendaire",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Le joueur ciblé pioche une carte et révèle sa main. Choisissez une carte dans sa main. Il la mélange à sa bibliothèque. Jouez cette capacité comme un rituel.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Le joueur ciblé pioche une carte et révèle sa main. Choisissez une carte dans sa main. Il la mélange à sa bibliothèque. Jouez cette capacité comme un rituel.",
         "flavorText": "Que voit-on dans le mirroir ?<br>- Des choses qui furent, des choses qui sont, et certaines choses qui ne sont pas encore passées...",
         "pt": ""
     },
@@ -248,7 +248,7 @@
         "name": "Narya, Anneau de Rubi",
         "type": "Artéfact Légendaire : Anneaux",
         "rarity": "mythicrare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous avez une carte ou moins dans votre main, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> à la place.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous avez une carte ou moins dans votre main, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> à la place.",
         "flavorText": "",
         "pt": ""
     },
@@ -257,7 +257,7 @@
         "name": "Nenya, Anneau de Diamant",
         "type": "Artéfact Légendaire : Anneaux",
         "rarity": "mythicrare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>:  Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez au moins cinq permanents non- terrains, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> à la place.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>:  Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez au moins cinq permanents non- terrains, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> à la place.",
         "flavorText": "",
         "pt": ""
     },
@@ -266,7 +266,7 @@
         "name": "Neuf Anneaux des Hommes",
         "type": "Artéfact Légendaire : Anneaux",
         "rarity": "mythicrare",
-        "RuleText": "A chaque fois qu’un humain non-jeton que vous contrôlez attaque, mettez un marqueur charge sur les Neuf Anneaux des Hommes.<br>Quand 9 marqueurs charge sont sur les Neuf Anneaux des Hommes, sacrifiez-les et créez 9 jetons de créature 2/2 noires Spectre. Ils ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'>: Régénérez cette créature”.",
+        "RuleText": "A chaque fois qu’un humain non-jeton que vous contrôlez attaque, mettez un marqueur charge sur les Neuf Anneaux des Hommes.<br>Quand 9 marqueurs charge sont sur les Neuf Anneaux des Hommes, sacrifiez-les et créez 9 jetons de créature 2/2 noires Spectre. Ils ont “<img src='/first-react-js/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'>: Régénérez cette créature”.",
         "flavorText": "",
         "pt": ""
     },
@@ -275,7 +275,7 @@
         "name": "Orcrist",
         "type": "Artéfact Légendaire : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée gagne +2/+0 et a l’initiative.<br>Si elle est bloquée par un orque ou un gobelin, elle acquiert la double-initative et le piétinement jusqu’à la fin du tour.<br>Equipement: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
+        "RuleText": "La créature équipée gagne +2/+0 et a l’initiative.<br>Si elle est bloquée par un orque ou un gobelin, elle acquiert la double-initative et le piétinement jusqu’à la fin du tour.<br>Equipement: <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
         "flavorText": "Celle-ci c’est Orcrist, le fendoir à gobelins, une lame renommée, forgée par les hauts elfes de l’ouest.",
         "pt": ""
     },
@@ -284,7 +284,7 @@
         "name": "Orthanc",
         "type": "Artéfact Légendaire",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Prévenez toutes les blessures infligées par une source rouge unique. Perdez un point de vie si vous ne contrôlez pas cette source.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Dégagez Orthanc",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Prévenez toutes les blessures infligées par une source rouge unique. Perdez un point de vie si vous ne contrôlez pas cette source.<br><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Dégagez Orthanc",
         "flavorText": "",
         "pt": ""
     },
@@ -293,7 +293,7 @@
         "name": "Palenthir",
         "type": "Artéfact",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, défaussez une carte au hasard: L’adversaire ciblé révèle sa main. Choisissez-y une carte non-terrain et exilez-la. Utilisez cette capacité comme un rituel.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, défaussez une carte au hasard: L’adversaire ciblé révèle sa main. Choisissez-y une carte non-terrain et exilez-la. Utilisez cette capacité comme un rituel.",
         "flavorText": "Un Palenthir est un outil dangeureux, Saroumane.<br>- Pourquoi ? Pourquoi aurions-nous peur de l’utiliser ?",
         "pt": ""
     },
@@ -302,7 +302,7 @@
         "name": "Pierre de Régénération",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez la Pierre de Régénération : Régénérez la créature ciblée. Piochez une carte.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez la Pierre de Régénération : Régénérez la créature ciblée. Piochez une carte.",
         "flavorText": "Sébastien !!! ... Mais laissez-le respirer, bon-sang de bois !",
         "pt": ""
     },
@@ -320,7 +320,7 @@
         "name": "Relique de l’Ancien Monde",
         "type": "Artéfact : Equipement",
         "rarity": "uncommon",
-        "RuleText": "La créature équipée a le contact mortel et l’initiative.<br>Equipement : <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>, où X est la force de la créature équipée.",
+        "RuleText": "La créature équipée a le contact mortel et l’initiative.<br>Equipement : <img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>, où X est la force de la créature équipée.",
         "flavorText": "Ceci ne vient pas du monde des vivants",
         "pt": ""
     },
@@ -329,7 +329,7 @@
         "name": "Sel de la Comté",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "A chaque fois que vous devriez gagner des points de vie, gagnez ce nombre de points de vie plus un.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez le Sel de la Comté: Renvoyez la créature ciblée que vous contrôlez dans la main de son propriétaire.",
+        "RuleText": "A chaque fois que vous devriez gagner des points de vie, gagnez ce nombre de points de vie plus un.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez le Sel de la Comté: Renvoyez la créature ciblée que vous contrôlez dans la main de son propriétaire.",
         "flavorText": "",
         "pt": ""
     },
@@ -338,7 +338,7 @@
         "name": "Sémaphores de Bataille",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert la célérité jusqu’à la fin du tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert la vigilance jusqu’à la fin du tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert l’initiative jusqu’à la fin du tour.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert la célérité jusqu’à la fin du tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert la vigilance jusqu’à la fin du tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée acquiert l’initiative jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": ""
     },
@@ -356,7 +356,7 @@
         "name": "Talisman Runique",
         "type": "Artéfact",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: La créature ciblée que vous contrôlez acquiert la défense talismanique jusqu’à la fin du tour. Engagez-la.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: La créature ciblée que vous contrôlez acquiert la défense talismanique jusqu’à la fin du tour. Engagez-la.",
         "flavorText": "La pierre que vous tenez, qu’est-ce que c’est ? - C’est un talisman. Un puissant sortilège la protège.",
         "pt": ""
     },
@@ -365,7 +365,7 @@
         "name": "Tête de Loup",
         "type": "Artéfact",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Détruisez la créature ciblée avec le défenseur. <br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>, engagez X créatures que vous contrôlez : La Tête de Loup devient jusqu’à la fin du tour une créature-artéfact avec le piétinement dont la force et l’endurance sont égales à la somme des forces et la somme des endurances des créatures engagées.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Détruisez la créature ciblée avec le défenseur. <br><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>, engagez X créatures que vous contrôlez : La Tête de Loup devient jusqu’à la fin du tour une créature-artéfact avec le piétinement dont la force et l’endurance sont égales à la somme des forces et la somme des endurances des créatures engagées.",
         "flavorText": "Mais les portes sont trop résistantes...                           - Apportez la tête de loup !",
         "pt": ""
     },
@@ -374,7 +374,7 @@
         "name": "Trésor d’Erebor",
         "type": "Artéfact",
         "rarity": "uncommon",
-        "RuleText": "Au début de votre entretien, créez un jeton d’artéfact Or.<br>Les artefactacts que vous contrôlez ont: “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>”.",
+        "RuleText": "Au début de votre entretien, créez un jeton d’artéfact Or.<br>Les artefactacts que vous contrôlez ont: “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>”.",
         "flavorText": "",
         "pt": ""
     },
@@ -383,7 +383,7 @@
         "name": "Vilya, Anneau de Saphire",
         "type": "Artéfact Legendaire : Anneaux",
         "rarity": "mythicrare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez au moins quatre terrains de base, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> à la place.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez au moins quatre terrains de base, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> à la place.",
         "flavorText": "",
         "pt": ""
     },
@@ -428,7 +428,7 @@
         "name": "Apparition du Magicien Blanc",
         "type": "Ephémère",
         "rarity": "uncommon",
-        "RuleText": "Cherchez dans votre bibliothèque une carte de planeswalker blanc, révélez-la, mettez-la dans votre main et mélangez.<br>Recyclage <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><br>Quand vous recyclez l’Apparition du Magicien Blanc, engagez la créature non-blanche ciblée.",
+        "RuleText": "Cherchez dans votre bibliothèque une carte de planeswalker blanc, révélez-la, mettez-la dans votre main et mélangez.<br>Recyclage <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><br>Quand vous recyclez l’Apparition du Magicien Blanc, engagez la créature non-blanche ciblée.",
         "flavorText": "",
         "pt": ""
     },
@@ -464,7 +464,7 @@
         "name": "Bilbon Sacquet",
         "type": "Créature Légendaire : Hobbit et Gredin ",
         "rarity": "rare",
-        "RuleText": "Quand Bilbon Sacquet arrive sur le champ de bataille, exilez la carte du dessus de la bibliothèque du joueur ciblé. Si c’est un artéfact, vous pouvez la jouer ce tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'>: Renvoyez Bilbon Sacquet depuis le champ de bataille dans la main de son propriétaire.",
+        "RuleText": "Quand Bilbon Sacquet arrive sur le champ de bataille, exilez la carte du dessus de la bibliothèque du joueur ciblé. Si c’est un artéfact, vous pouvez la jouer ce tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-0.png' alt='0' width='14' height='14'>: Renvoyez Bilbon Sacquet depuis le champ de bataille dans la main de son propriétaire.",
         "flavorText": "",
         "pt": "1/2"
     },
@@ -482,7 +482,7 @@
         "name": "Boromir, Fils de Denethor",
         "type": "Créature Légendaire : Humain et Soldat ",
         "rarity": "uncommon",
-        "RuleText": "Vigilance<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Les créatures humain que vous contrôlez gagnent +2/+2 jusqu’à la fin du tour.",
+        "RuleText": "Vigilance<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Les créatures humain que vous contrôlez gagnent +2/+2 jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": "3/3"
     },
@@ -536,7 +536,7 @@
         "name": "Couronne de Fleurs",
         "type": "Enchantement : Aura",
         "rarity": "common",
-        "RuleText": "Enchanter: Créature<br>La créature enchantée gagne +1/+1 par autre créature que vous contrôlez.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez la Couronne de Fleurs dans la main de son propriétaire.",
+        "RuleText": "Enchanter: Créature<br>La créature enchantée gagne +1/+1 par autre créature que vous contrôlez.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez la Couronne de Fleurs dans la main de son propriétaire.",
         "flavorText": "",
         "pt": ""
     },
@@ -563,7 +563,7 @@
         "name": "Défaire le Sortilège",
         "type": "Ephémère",
         "rarity": "common",
-        "RuleText": "Détruisez l’artéfact ciblé ou l’enchantement ciblé à moins que son contrôleur ne paie <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>.<br>Recyclage <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
+        "RuleText": "Détruisez l’artéfact ciblé ou l’enchantement ciblé à moins que son contrôleur ne paie <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>.<br>Recyclage <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -599,7 +599,7 @@
         "name": "Dragon d’Artifice",
         "type": "Créature Artéfact : Dragon et Illusion ",
         "rarity": "uncommon",
-        "RuleText": "Vol, flash<br>Au début de votre prochaine étape de fin, sacrifiez le Dragon d’Artifice.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, défaussez une carte : Renvoyez le Dragon d’Artifice depuis votre cimetière dans votre main.",
+        "RuleText": "Vol, flash<br>Au début de votre prochaine étape de fin, sacrifiez le Dragon d’Artifice.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, défaussez une carte : Renvoyez le Dragon d’Artifice depuis votre cimetière dans votre main.",
         "flavorText": "",
         "pt": "3/1"
     },
@@ -608,7 +608,7 @@
         "name": "Eleveur de Chevaux",
         "type": "Créature : Humain et Paysan ",
         "rarity": "common",
-        "RuleText": "A chaque fois qu’une autre créature humain arrive sur le champ de bataille sous votre contrôle, vous pouvez payer <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous faites ainsi, mettez un marqueur +1/+1 sur elle.",
+        "RuleText": "A chaque fois qu’une autre créature humain arrive sur le champ de bataille sous votre contrôle, vous pouvez payer <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous faites ainsi, mettez un marqueur +1/+1 sur elle.",
         "flavorText": "",
         "pt": "1/2"
     },
@@ -698,7 +698,7 @@
         "name": "Frédégar Bolger",
         "type": "Créature Légendaire : Hobbit ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez le hobbit ciblé et Frédégar Bolger depuis le champ de bataille dans les mains de leurs propriétaires.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez le hobbit ciblé et Frédégar Bolger depuis le champ de bataille dans les mains de leurs propriétaires.",
         "flavorText": "Ne mets pas ton nez dans les ennuis des autres et les ennuis ne viendront pas à toi !",
         "pt": "0/2"
     },
@@ -797,7 +797,7 @@
         "name": "Mal de la Comté",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez le hobbit ciblé depuis le champ de bataille dans la main de son propriétaire.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Vous pouvez mélanger une carte de hobbit de votre cimetière dans votre bibliothèque. Si vous faites ainsi, piochez une carte.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Renvoyez le hobbit ciblé depuis le champ de bataille dans la main de son propriétaire.<br><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>: Vous pouvez mélanger une carte de hobbit de votre cimetière dans votre bibliothèque. Si vous faites ainsi, piochez une carte.",
         "flavorText": "",
         "pt": ""
     },
@@ -806,7 +806,7 @@
         "name": "Meriadoc Brandebouc",
         "type": "Créature Légendaire : Hobbit ",
         "rarity": "rare",
-        "RuleText": "Quand Meriadoc Brandebouc arrive sur le champ de bataille, vous pouvez exiler la carte du dessus de votre bibliothèque pour ajouter <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
+        "RuleText": "Quand Meriadoc Brandebouc arrive sur le champ de bataille, vous pouvez exiler la carte du dessus de votre bibliothèque pour ajouter <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
         "flavorText": "",
         "pt": "1/2"
     },
@@ -914,7 +914,7 @@
         "name": "Sacquets de Besace",
         "type": "Créature : Hobbit et Gredin ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Exilez les 3 cartes du dessus de la bibliothèque de l’adversaire ciblé.<br>Vous pouvez jouer les cartes d’artéfact exilées par les Sacquets de Besace.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Exilez les 3 cartes du dessus de la bibliothèque de l’adversaire ciblé.<br>Vous pouvez jouer les cartes d’artéfact exilées par les Sacquets de Besace.",
         "flavorText": "Ces sont ces importuns de Sacquets de Besace ! Il veulent l’héritage... Ils ne me pardonneront jamais de vivre aussi longtemps.",
         "pt": "0/2"
     },
@@ -995,7 +995,7 @@
         "name": "Apparition du Nécromancien",
         "type": "Ephémère",
         "rarity": "uncommon",
-        "RuleText": "Cherchez dans votre bibliothèque une carte de planeswalker noir, révélez-la, mettez-la dans votre main et mélangez.<br>Recyclage <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><br>Quand vous recyclez l’Apparition du Nécromancien, renvoyez une carte de  créature de votre cimetière dans votre main.",
+        "RuleText": "Cherchez dans votre bibliothèque une carte de planeswalker noir, révélez-la, mettez-la dans votre main et mélangez.<br>Recyclage <img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><br>Quand vous recyclez l’Apparition du Nécromancien, renvoyez une carte de  créature de votre cimetière dans votre main.",
         "flavorText": "",
         "pt": ""
     },
@@ -1031,7 +1031,7 @@
         "name": "Cavalier Noir",
         "type": "Créature : Spectre et Chevalier ",
         "rarity": "uncommon",
-        "RuleText": "Intimidation<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Cavalier Noir",
+        "RuleText": "Intimidation<br><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Cavalier Noir",
         "flavorText": "Ces cavaliers noirs cherchent quelque chose... ou quelqu’un. Frodon ?",
         "pt": "2/2"
     },
@@ -1121,7 +1121,7 @@
         "name": "Fumées du Mordor",
         "type": "Rituel",
         "rarity": "uncommon",
-        "RuleText": "Le créatures noires que vous contrôlez gagnent +2/+0 jusqu’à la fin du tour. Les créatures rouges que vous contrôlez gagnent +1/+0 jusqu’à la fin du tour.<br>Flashback: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
+        "RuleText": "Le créatures noires que vous contrôlez gagnent +2/+0 jusqu’à la fin du tour. Les créatures rouges que vous contrôlez gagnent +1/+0 jusqu’à la fin du tour.<br>Flashback: <img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -1157,7 +1157,7 @@
         "name": "Jurer sur l’Anneau",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "A chaque fois que vous lancez un sort ou posez un terrain, mettez un marqueur pacte sur Jurer sur l’Anneau. <br>Au début de votre entretien, si votre total de point de vie est inférieur ou égal au nombre de marqueurs pacte sur Jurer sur l’Anneau, vous perdez la partie.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Piochez une carte.",
+        "RuleText": "A chaque fois que vous lancez un sort ou posez un terrain, mettez un marqueur pacte sur Jurer sur l’Anneau. <br>Au début de votre entretien, si votre total de point de vie est inférieur ou égal au nombre de marqueurs pacte sur Jurer sur l’Anneau, vous perdez la partie.<br><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Piochez une carte.",
         "flavorText": "",
         "pt": ""
     },
@@ -1184,7 +1184,7 @@
         "name": "Langue de Serpent",
         "type": "Enchantement : Aura",
         "rarity": "common",
-        "RuleText": "Enchanter : Créature.<br>La créature enchantée a “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Engagez une autre créature ciblée et mettez un marqueur -1/-1 sur elle”.",
+        "RuleText": "Enchanter : Créature.<br>La créature enchantée a “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Engagez une autre créature ciblée et mettez un marqueur -1/-1 sur elle”.",
         "flavorText": "C’est un mensonge, Saroumane est et a toujours été notre allié.",
         "pt": ""
     },
@@ -1211,7 +1211,7 @@
         "name": "Mort des Marais",
         "type": "Créature : Spectre ",
         "rarity": "common",
-        "RuleText": "Le mort des marais a l’indestructible tant que vous contrôlez un marais dégagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: La créature ciblée attaque ce tour si possible.",
+        "RuleText": "Le mort des marais a l’indestructible tant que vous contrôlez un marais dégagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: La créature ciblée attaque ce tour si possible.",
         "flavorText": "Ne suivez pas les lumières...",
         "pt": "3/2"
     },
@@ -1220,7 +1220,7 @@
         "name": "Nazgûl en Chasse",
         "type": "Créature : Spectre ",
         "rarity": "uncommon",
-        "RuleText": "Vol<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Nazgûl en Chasse.<br>Quand le Nazgûl en Chasse attaque, engagez une créature ciblée qui a une endurance inférieure ou égale à la force du Nazgûl en Chasse.",
+        "RuleText": "Vol<br><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Nazgûl en Chasse.<br>Quand le Nazgûl en Chasse attaque, engagez une créature ciblée qui a une endurance inférieure ou égale à la force du Nazgûl en Chasse.",
         "flavorText": "Morts ? Non, on ne peut pas les tuer...",
         "pt": "3/2"
     },
@@ -1247,7 +1247,7 @@
         "name": "Pas de Vie dans le Néant",
         "type": "Rituel",
         "rarity": "common",
-        "RuleText": "Choisissez deux <i>(vous pouvez choisir deux fois le même mode)</i>:<br>* Exilez la créature ciblée<br>* Détruisez le terrain ciblé<br>* L’adversaire ciblé défausse deux cartes<br>* Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
+        "RuleText": "Choisissez deux <i>(vous pouvez choisir deux fois le même mode)</i>:<br>* Exilez la créature ciblée<br>* Détruisez le terrain ciblé<br>* L’adversaire ciblé défausse deux cartes<br>* Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -1265,7 +1265,7 @@
         "name": "Pirates de la Côte",
         "type": "Créature : Humain et Pirate ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>,<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Infligez X blessures à la créature ciblée, où X est le nombre de créatures noires que vous contrôlez.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>,<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Détruisez la cité ciblée. Utilisez cette capacité comme un rituel.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>,<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Infligez X blessures à la créature ciblée, où X est le nombre de créatures noires que vous contrôlez.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>,<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Détruisez la cité ciblée. Utilisez cette capacité comme un rituel.",
         "flavorText": "",
         "pt": "3/3"
     },
@@ -1274,7 +1274,7 @@
         "name": "Porte Noire du Mordor",
         "type": "Créature : Mur ",
         "rarity": "rare",
-        "RuleText": "Défenseur<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Révélez les cartes du dessus de votre bibliothèque jusqu’à révéler une carte de créature. Mettez cette carte dans votre main, puis mélangez. Utilisez cette capacité comme un rituel.",
+        "RuleText": "Défenseur<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Révélez les cartes du dessus de votre bibliothèque jusqu’à révéler une carte de créature. Mettez cette carte dans votre main, puis mélangez. Utilisez cette capacité comme un rituel.",
         "flavorText": "",
         "pt": "2/6"
     },
@@ -1292,7 +1292,7 @@
         "name": "Roi-Sorcier d’Angmar",
         "type": "Créature Légendaire : Spectre ",
         "rarity": "mythicrare",
-        "RuleText": "Vol<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Roi-Sorcier d’Angmar.<br>Quand le Roi-Sorcier d’Angmar attaque, engagez toutes les créatures contrôlées par votre adversaire qui ont une endurance inférieure ou égale à sa force. Les créatures non-légendaires ainsi engagées ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur.",
+        "RuleText": "Vol<br><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Régénérez le Roi-Sorcier d’Angmar.<br>Quand le Roi-Sorcier d’Angmar attaque, engagez toutes les créatures contrôlées par votre adversaire qui ont une endurance inférieure ou égale à sa force. Les créatures non-légendaires ainsi engagées ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur.",
         "flavorText": "",
         "pt": "5/3"
     },
@@ -1328,7 +1328,7 @@
         "name": "Sheilob, Toujours Affamée",
         "type": "Créature Légendaire : Araignée ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez un marqueur toile sur la créature engagée ciblée. Les créatures avec un marqueur toile sur elles ne se dégagent pas pendant l’étape de dégagement de leur contrôleur.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Détruisez une créature ciblée avec une endurance de X qui a un marqueur toile sur elle. Mettez un marqueur +1/+1 sur Sheilob et dégagez-la.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez un marqueur toile sur la créature engagée ciblée. Les créatures avec un marqueur toile sur elles ne se dégagent pas pendant l’étape de dégagement de leur contrôleur.<br><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: Détruisez une créature ciblée avec une endurance de X qui a un marqueur toile sur elle. Mettez un marqueur +1/+1 sur Sheilob et dégagez-la.",
         "flavorText": "",
         "pt": "4/4"
     },
@@ -1346,7 +1346,7 @@
         "name": "Acoucheur d’Uruk",
         "type": "Créature : Orque et Shamane ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez un orque non-uruk: Créez un jeton de créature 2/2 rouge et noire Orque et Uruk avec l’initiative et la traversée des plaines.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez un orque non-uruk: Créez un jeton de créature 2/2 rouge et noire Orque et Uruk avec l’initiative et la traversée des plaines.",
         "flavorText": "Maintenant, ils sont parfaits, mes combattants Uruk-hai !",
         "pt": "2/2"
     },
@@ -1373,7 +1373,7 @@
         "name": "Archer Gobelin",
         "type": "Créature : Gobelin et Archer ",
         "rarity": "uncommon",
-        "RuleText": "Célérité<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’Archer Gobelin inflige une blessure à la créature ciblée qui a subi des blessures ce tour.",
+        "RuleText": "Célérité<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’Archer Gobelin inflige une blessure à la créature ciblée qui a subi des blessures ce tour.",
         "flavorText": "",
         "pt": "1/1"
     },
@@ -1382,7 +1382,7 @@
         "name": "Archer Nain",
         "type": "Créature : Nain et Archer ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’Archer Nain inflige une blessure à la créature attaquante ou bloqueuse ciblée.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’Archer Nain inflige une blessure à la créature attaquante ou bloqueuse ciblée.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -1391,7 +1391,7 @@
         "name": "Barde Nain",
         "type": "Créature : Nain et Barde ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée de valeur de mana inférieure ou égale à 3 ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: La créature ciblée de valeur de mana inférieure ou égale à 3 ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -1427,7 +1427,7 @@
         "name": "Chercheur de Filons",
         "type": "Créature : Nain ",
         "rarity": "common",
-        "RuleText": "Quand le Chercheur de Filons arrive sur le champ de bataille, créez un jeton d’artéfact Or. Il a “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Créez un jeton d’artéfact Or.",
+        "RuleText": "Quand le Chercheur de Filons arrive sur le champ de bataille, créez un jeton d’artéfact Or. Il a “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Créez un jeton d’artéfact Or.",
         "flavorText": "",
         "pt": "1/2"
     },
@@ -1454,7 +1454,7 @@
         "name": "Cracheur de Feu du Nord",
         "type": "Créature : Dragon ",
         "rarity": "uncommon",
-        "RuleText": "Vol<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Le Cracheur de Feu du Nord gagne +1/+0 jusqu’à la fin du tour.<br>Le Cracheur de Feu du Nord a la célérité tant que vous contrôlez au moins 8 montagnes.",
+        "RuleText": "Vol<br><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Le Cracheur de Feu du Nord gagne +1/+0 jusqu’à la fin du tour.<br>Le Cracheur de Feu du Nord a la célérité tant que vous contrôlez au moins 8 montagnes.",
         "flavorText": "",
         "pt": "4/4"
     },
@@ -1508,7 +1508,7 @@
         "name": "Feux de l’Industrie",
         "type": "Ephémère",
         "rarity": "common",
-        "RuleText": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez un terrain non-base.<br>Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>",
+        "RuleText": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez un terrain non-base.<br>Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -1517,7 +1517,7 @@
         "name": "Filon d’Or",
         "type": "Rituel",
         "rarity": "uncommon",
-        "RuleText": "Créez X plus un jetons d’artéfact Or. Ils ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.",
+        "RuleText": "Créez X plus un jetons d’artéfact Or. Ils ont “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.",
         "flavorText": "",
         "pt": ""
     },
@@ -1526,7 +1526,7 @@
         "name": "Forgeron Nain",
         "type": "Créature : Nain et Artificier ",
         "rarity": "common",
-        "RuleText": "Quand le Forgeron Nain arrive sur le champ de bataille, créez un jeton d’artéfact Or. Il a “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez un artéfact: Piochez une carte.",
+        "RuleText": "Quand le Forgeron Nain arrive sur le champ de bataille, créez un jeton d’artéfact Or. Il a “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez cet artéfact: Ajoutez un mana de la couleur de votre choix”.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>, sacrifiez un artéfact: Piochez une carte.",
         "flavorText": "",
         "pt": "2/3"
     },
@@ -1535,7 +1535,7 @@
         "name": "Forgeron Orque",
         "type": "Créature : Orque et Artificier ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créautre ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez un terrain: Mettez deux marqueurs +1/+1 répartis sur une ou deux créatures ciblées que vous contrôlez. Utilisez cette capacité comme un rituel.",
+        "RuleText": "Grégaire <i>(Cette créautre ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez un terrain: Mettez deux marqueurs +1/+1 répartis sur une ou deux créatures ciblées que vous contrôlez. Utilisez cette capacité comme un rituel.",
         "flavorText": "Leur armure est solide, leur bouclier est large !",
         "pt": "2/2"
     },
@@ -1544,7 +1544,7 @@
         "name": "Fosse à Orques",
         "type": "Enchantement : Aura",
         "rarity": "common",
-        "RuleText": "Enchanter : Montagne<br>Le terrain enchanté a : “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte rouge ou noire de votre cimetière: Créez un jeton de créature 2/2 rouge Orque avec le grégaire”.",
+        "RuleText": "Enchanter : Montagne<br>Le terrain enchanté a : “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte rouge ou noire de votre cimetière: Créez un jeton de créature 2/2 rouge Orque avec le grégaire”.",
         "flavorText": "Fabriquez-moi une armée digne du Mordor!",
         "pt": ""
     },
@@ -1589,7 +1589,7 @@
         "name": "Grive du Présage",
         "type": "Créature : Oiseau ",
         "rarity": "common",
-        "RuleText": "Vol<br>Quand la Grive du Présage arrive sur le champ de bataille, vous pouvez payer <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Si vous faites ainsi, cherchez dans votre bibliothèque une carte de dragon, révélez-la, mélangez et mettez la carte révélée au dessus de votre bibliothèque.",
+        "RuleText": "Vol<br>Quand la Grive du Présage arrive sur le champ de bataille, vous pouvez payer <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Si vous faites ainsi, cherchez dans votre bibliothèque une carte de dragon, révélez-la, mélangez et mettez la carte révélée au dessus de votre bibliothèque.",
         "flavorText": "",
         "pt": "1/1"
     },
@@ -1616,7 +1616,7 @@
         "name": "Hordes de la Moria",
         "type": "Créature : Gobelin ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez dans votre bibliothèque une carte nommée Hordes de la Moria, révélez-la,  mettez-la dans votre main et mélangez.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez dans votre bibliothèque une carte nommée Hordes de la Moria, révélez-la,  mettez-la dans votre main et mélangez.",
         "flavorText": "",
         "pt": "1/1"
     },
@@ -1634,7 +1634,7 @@
         "name": "Légionaires Orques",
         "type": "Créature : Orque et Soldat ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br>Quand les Légionaires Orques arrivent sur le champ de bataille, ajoutez 1<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
+        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br>Quand les Légionaires Orques arrivent sur le champ de bataille, ajoutez 1<img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
         "flavorText": "Quels sont les ordres de l’oeil ?",
         "pt": "2/3"
     },
@@ -1661,7 +1661,7 @@
         "name": "Messager Gobelin",
         "type": "Créature : Gobelin ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Exilez les X cartes du dessus de votre bibliothèque. Vous pouvez jouer les cartes de créature ainsi exilées ce tour.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Exilez les X cartes du dessus de votre bibliothèque. Vous pouvez jouer les cartes de créature ainsi exilées ce tour.",
         "flavorText": "Va prévenir le grand orque pâle.",
         "pt": "0/1"
     },
@@ -1733,7 +1733,7 @@
         "name": "Pomme de Pin Enflammée",
         "type": "Ephémère",
         "rarity": "common",
-        "RuleText": "La Pomme de Pin Enflammée inflige 2 blessures à la créature ciblée.<br>Flashback: <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
+        "RuleText": "La Pomme de Pin Enflammée inflige 2 blessures à la créature ciblée.<br>Flashback: <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -1778,7 +1778,7 @@
         "name": "Seigneur de Guerre Orque",
         "type": "Créature : Orque et Soldat ",
         "rarity": "uncommon",
-        "RuleText": "Quand le Seigneur de Guerre Orque arrive sur le champ de bataille, renvoyez un orque que vous contrôlez dans la main de son propriétaire.<br>Tant que le Seigneur de Guerre Orque est dégagé, les orques dégagés gagnent +0/+1 et les sorts d’orque coûtent <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> de moins à lancer. Quand le Seigneur de Guerre Orque attaque, les orques attaquants gagnent +1/+0.",
+        "RuleText": "Quand le Seigneur de Guerre Orque arrive sur le champ de bataille, renvoyez un orque que vous contrôlez dans la main de son propriétaire.<br>Tant que le Seigneur de Guerre Orque est dégagé, les orques dégagés gagnent +0/+1 et les sorts d’orque coûtent <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> de moins à lancer. Quand le Seigneur de Guerre Orque attaque, les orques attaquants gagnent +1/+0.",
         "flavorText": "",
         "pt": "4/4"
     },
@@ -1796,7 +1796,7 @@
         "name": "Smaug, Première des Calamités",
         "type": "Créature Légendaire : Dragon ",
         "rarity": "mythicrare",
-        "RuleText": "Vol, piétinement, célérité<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Smaug gagne +1/+0 jusqu’à la fin du tour, et inflige une blessure à chaque créature contrôlée par vos adversaires. N’utilisez cette capacité que lorsque Smaug attaque.",
+        "RuleText": "Vol, piétinement, célérité<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Smaug gagne +1/+0 jusqu’à la fin du tour, et inflige une blessure à chaque créature contrôlée par vos adversaires. N’utilisez cette capacité que lorsque Smaug attaque.",
         "flavorText": "Mes crocs sont des épées, mes griffes, des lances, mes ailes, un ouragan !",
         "pt": "6/6"
     },
@@ -1814,7 +1814,7 @@
         "name": "Souffre-Douleur Orque",
         "type": "Créature : Orque ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br>Protection contre le rouge<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Redirigez sur le Souffre-Douleur Orque les blessures qui devraient vous être infligées par une source unique.",
+        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br>Protection contre le rouge<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Redirigez sur le Souffre-Douleur Orque les blessures qui devraient vous être infligées par une source unique.",
         "flavorText": "Aaaaarghhlll !!!",
         "pt": "1/1"
     },
@@ -1823,7 +1823,7 @@
         "name": "Tambours Orques",
         "type": "Créature : Orque et Soldat ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Les orques que vous contrôlez gagnent +1/+0 et acquièrent le piétinement jusqu’à la fin du tour.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Les orques que vous contrôlez gagnent +1/+0 et acquièrent le piétinement jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -1904,7 +1904,7 @@
         "name": "Troll-Catapulte",
         "type": "Créature : Troll ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Le Troll-Catapulte inflige X blessures à la créature ciblée.<br>Le Troll-Catapulte ne peut attaquer que si au moins une autre créature attaque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Le Troll-Catapulte inflige X blessures à la créature ciblée.<br>Le Troll-Catapulte ne peut attaquer que si au moins une autre créature attaque.",
         "flavorText": "",
         "pt": "4/6"
     },
@@ -1931,7 +1931,7 @@
         "name": "Ancien Ent",
         "type": "Créature : Sylvin et Druide ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez jusqu’à 2 forêts ciblées.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez dans votre bibliothèque une carte de forêt de base et mettez-la dans votre main. Mélangez.",
+        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez jusqu’à 2 forêts ciblées.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez dans votre bibliothèque une carte de forêt de base et mettez-la dans votre main. Mélangez.",
         "flavorText": "",
         "pt": "1/4"
     },
@@ -1940,7 +1940,7 @@
         "name": "Archers Noldor",
         "type": "Créature : Elfe et Archer ",
         "rarity": "common",
-        "RuleText": "Célérité<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Les Archers Noldor infligent une blessure à la créature attaquante ou bloqueuse ciblée. N’utilisez cette capacité qu’une seule fois par tour.",
+        "RuleText": "Célérité<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Les Archers Noldor infligent une blessure à la créature attaquante ou bloqueuse ciblée. N’utilisez cette capacité qu’une seule fois par tour.",
         "flavorText": "Il y eut un jour une alliance entre les hommes et les elfes. Je viens pour honorer cette allégeance.",
         "pt": "2/1"
     },
@@ -1976,7 +1976,7 @@
         "name": "Bourdon Géant",
         "type": "Créature : Insecte ",
         "rarity": "common",
-        "RuleText": "Vol, contact mortel<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Vous gagnez un point de vie.",
+        "RuleText": "Vol, contact mortel<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Vous gagnez un point de vie.",
         "flavorText": "",
         "pt": "1/1"
     },
@@ -1994,7 +1994,7 @@
         "name": "Celeborn, Seigneur de Lorien",
         "type": "Créature Légendaire : Elfe et Druide ",
         "rarity": "rare",
-        "RuleText": "Les elfes que vous contrôlez ont la défense talismanique contre le noir.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez toutes les forêt que vous contrôlez.<br>Renvoyez deux forêts que vous contrôlez dans la main de leur propriétaire: Piochez une carte.",
+        "RuleText": "Les elfes que vous contrôlez ont la défense talismanique contre le noir.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez toutes les forêt que vous contrôlez.<br>Renvoyez deux forêts que vous contrôlez dans la main de leur propriétaire: Piochez une carte.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2039,7 +2039,7 @@
         "name": "Descendre Vers le Sud",
         "type": "Ephémère",
         "rarity": "uncommon",
-        "RuleText": "Jusqu’à la fin du tour, les forêts que vous contrôlez ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, piochez une carte et gagnez un point de vie”.",
+        "RuleText": "Jusqu’à la fin du tour, les forêts que vous contrôlez ont “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, piochez une carte et gagnez un point de vie”.",
         "flavorText": "J’ai toujours aimé aller vers le sud. C’est un peu comme si on descendait une pente.",
         "pt": ""
     },
@@ -2066,7 +2066,7 @@
         "name": "Elfe Protocolaire",
         "type": "Créature : Elfe et Druide ",
         "rarity": "common",
-        "RuleText": "Quand l’Elfe Protocolaire arrive sur le champ de bataille, dégagez le permanent ciblé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
+        "RuleText": "Quand l’Elfe Protocolaire arrive sur le champ de bataille, dégagez le permanent ciblé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
         "flavorText": "",
         "pt": "1/2"
     },
@@ -2075,7 +2075,7 @@
         "name": "Elfe Sylvestre",
         "type": "Créature : Elfe et Eclaireur ",
         "rarity": "common",
-        "RuleText": "Célérité<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: L’Elfe Sylvestre gagne +1/+0 et acquiert l’initiative jusqu’à la fin du tour.",
+        "RuleText": "Célérité<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: L’Elfe Sylvestre gagne +1/+0 et acquiert l’initiative jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": "1/1"
     },
@@ -2084,7 +2084,7 @@
         "name": "Ent de Fangorn",
         "type": "Créature : Sylvin et Druide ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez jusqu’à 2 forêts ciblées.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez sur le champ de bataille jusqu’à deux forêts de votre main. Utilisez cette capacité comme un rituel.",
+        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Dégagez jusqu’à 2 forêts ciblées.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Mettez sur le champ de bataille jusqu’à deux forêts de votre main. Utilisez cette capacité comme un rituel.",
         "flavorText": "",
         "pt": "2/5"
     },
@@ -2093,7 +2093,7 @@
         "name": "Ent en Colère",
         "type": "Créature : Sylvin ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: L’Ent en Colère gagne +1/+1 et acquiert le piétinement jusqu’à la fin du tour.<br>A chaque fois que l’Ent en Colère attaque, vous pouvez détruire l’artéfact ciblé ou la cité ciblée. Si vous ne le faites pas, l’Ent en Colère ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: L’Ent en Colère gagne +1/+1 et acquiert le piétinement jusqu’à la fin du tour.<br>A chaque fois que l’Ent en Colère attaque, vous pouvez détruire l’artéfact ciblé ou la cité ciblée. Si vous ne le faites pas, l’Ent en Colère ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
         "flavorText": "",
         "pt": "7/7"
     },
@@ -2102,7 +2102,7 @@
         "name": "Exode des Elfes",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, exilez un elfe ciblé que vous contrôlez: Vous piochez une carte et vous gagnez un point de vie.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, sacrifiez l’Exode des Elfes: Renvoyez toutes les cartes de permanent exilées par l’Exode des Elfes sur le champ de bataille sous le contrôle de leur propriétaire. Au début de votre prochaine étape de fin, vous perdez la partie.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, exilez un elfe ciblé que vous contrôlez: Vous piochez une carte et vous gagnez un point de vie.<br><img src='/first-react-js/assets/mana/magic-mana-small-3.png' alt='3' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, sacrifiez l’Exode des Elfes: Renvoyez toutes les cartes de permanent exilées par l’Exode des Elfes sur le champ de bataille sous le contrôle de leur propriétaire. Au début de votre prochaine étape de fin, vous perdez la partie.",
         "flavorText": "",
         "pt": ""
     },
@@ -2147,7 +2147,7 @@
         "name": "Jeune Enture",
         "type": "Créature : Sylvin et Druide ",
         "rarity": "common",
-        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Renvoyez le terrain ciblé que vous contrôlez dans la main de son propriétaire. Si ce terrain est une forêt, vous gagnez un point de vie.",
+        "RuleText": "Grégaire <i>(Cette créature ne peut attaquer à moins que vous ne controliez au moins une autre créature du même type)</i><br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Renvoyez le terrain ciblé que vous contrôlez dans la main de son propriétaire. Si ce terrain est une forêt, vous gagnez un point de vie.",
         "flavorText": "",
         "pt": "1/3"
     },
@@ -2165,7 +2165,7 @@
         "name": "Légolas, Fils de Thranduil",
         "type": "Créature Légendaire : Elfe et Archer ",
         "rarity": "uncommon",
-        "RuleText": "Célérité, initiative<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Légolas inflige une blessure à la créature attaquante ou bloqueuse ciblée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Dégagez Légolas.",
+        "RuleText": "Célérité, initiative<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Légolas inflige une blessure à la créature attaquante ou bloqueuse ciblée.<br><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Dégagez Légolas.",
         "flavorText": "",
         "pt": "2/1"
     },
@@ -2192,7 +2192,7 @@
         "name": "Mereth Engilith",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "Engagez un elfe que vous contrôlez: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Regard 1, puis piochez une carte.",
+        "RuleText": "Engagez un elfe que vous contrôlez: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Regard 1, puis piochez une carte.",
         "flavorText": "C’est Mereth Engilith, la fête de la lumière des étoiles. Toute lumière est sacrée pour les eldars, mais les elfes des bois aiment plus encore celle des étoiles.",
         "pt": ""
     },
@@ -2228,7 +2228,7 @@
         "name": "Prêtresse Demi-Elfe",
         "type": "Créature : Elfe et Humain et Druide ",
         "rarity": "uncommon",
-        "RuleText": "Quand la Prêtresse Demi-Elfe arrive sur le champ de bataille, vous pouvez détruire l’enchantement ciblé ou exiler le spectre ciblé. Si vous ne le faites pas, la Prêtresse Demi-Elfe acquiert la célérité jusqu’à la fin du tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>,<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Retirez X marqueurs du permanent ciblé.",
+        "RuleText": "Quand la Prêtresse Demi-Elfe arrive sur le champ de bataille, vous pouvez détruire l’enchantement ciblé ou exiler le spectre ciblé. Si vous ne le faites pas, la Prêtresse Demi-Elfe acquiert la célérité jusqu’à la fin du tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>,<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Retirez X marqueurs du permanent ciblé.",
         "flavorText": "",
         "pt": "2/1"
     },
@@ -2264,7 +2264,7 @@
         "name": "Radagast, Mangeur de Champignons",
         "type": "Planeswalker : Radagast ",
         "rarity": "mythicrare",
-        "RuleText": "Vous pouvez renvoyer une créature Hérisson, Ecureuil, Lapin, Furet ou Oiseau depuis votre cimetière dans vore main.<br>Créez un jeton de créature 1/1 verte Fungus. Il a “Quand cette créature  meurt, mettez un marqueur loyauté sur le planeswalker vert ciblé”.<br>Jusqu’à la fin du tour, les terrains que vous contrôlez ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Piochez une carte et gagnez un point de vie”.",
+        "RuleText": "Vous pouvez renvoyer une créature Hérisson, Ecureuil, Lapin, Furet ou Oiseau depuis votre cimetière dans vore main.<br>Créez un jeton de créature 1/1 verte Fungus. Il a “Quand cette créature  meurt, mettez un marqueur loyauté sur le planeswalker vert ciblé”.<br>Jusqu’à la fin du tour, les terrains que vous contrôlez ont “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Piochez une carte et gagnez un point de vie”.",
         "flavorText": "",
         "pt": ""
     },
@@ -2300,7 +2300,7 @@
         "name": "Sommet à Fondcombes",
         "type": "Rituel",
         "rarity": "uncommon",
-        "RuleText": "Si vous contrôlez un humain, piochez une carte et ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez un hobbit, piochez une carte et ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Si vous contrôlez un elfe, piochez une carte et ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. Si vous contrôlez un nain, piochez une carte et ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
+        "RuleText": "Si vous contrôlez un humain, piochez une carte et ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>. Si vous contrôlez un hobbit, piochez une carte et ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Si vous contrôlez un elfe, piochez une carte et ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. Si vous contrôlez un nain, piochez une carte et ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -2309,7 +2309,7 @@
         "name": "Source de Fangorn",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Ciblez une créature que vous contrôlez. Mettez un marqueur +1/+1 sur cette créature si elle a déjà exactement X marqueurs +1/+1 sur elle. Gagnez X points de vie.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: Ciblez une créature que vous contrôlez. Mettez un marqueur +1/+1 sur cette créature si elle a déjà exactement X marqueurs +1/+1 sur elle. Gagnez X points de vie.",
         "flavorText": "Pippin ? Tu as fait quelque chose...       non, Sylvebarbe a dit de ne pas...",
         "pt": ""
     },
@@ -2318,7 +2318,7 @@
         "name": "Sylvebarbe",
         "type": "Créature Légendaire : Sylvin et Shamane ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: La forêt ciblée devient une créature 4/4 verte jusqu’à la fin du tour.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez une carte de sylvin ou de forêt dans votre bibliothèque, révélez-la, mettez-la dans votre main et mélangez.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: La forêt ciblée devient une créature 4/4 verte jusqu’à la fin du tour.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Cherchez une carte de sylvin ou de forêt dans votre bibliothèque, révélez-la, mettez-la dans votre main et mélangez.",
         "flavorText": "",
         "pt": "4/8"
     },
@@ -2363,7 +2363,7 @@
         "name": "Brigand Demi-Orque",
         "type": "Créature : Orque et Humain et Gredin ",
         "rarity": "common",
-        "RuleText": "Intimidation<br>Quand le Brigand Demi-Orque arrive sur le champ de bataille, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
+        "RuleText": "Intimidation<br>Quand le Brigand Demi-Orque arrive sur le champ de bataille, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2408,7 +2408,7 @@
         "name": "Invocation à Morgoth",
         "type": "Ephémère",
         "rarity": "common",
-        "RuleText": "Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>",
+        "RuleText": "Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>",
         "flavorText": "",
         "pt": ""
     },
@@ -2426,7 +2426,7 @@
         "name": "Pisteur Uruk-Hai",
         "type": "Créature : Orque et Uruk et Eclaireur ",
         "rarity": "uncommon",
-        "RuleText": "Traversée des plaines, des montagnes et des marais<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: La créature ciblée gagne la traversée des plaines, des montagnes et des marais jusqu’à la fin du tour.",
+        "RuleText": "Traversée des plaines, des montagnes et des marais<br><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>: La créature ciblée gagne la traversée des plaines, des montagnes et des marais jusqu’à la fin du tour.",
         "flavorText": "Que sens-tu ?<br>- La chair humaine !",
         "pt": "2/3"
     },
@@ -2453,7 +2453,7 @@
         "name": "Wargs de Gundabad",
         "type": "Créature : Loup ",
         "rarity": "common",
-        "RuleText": "Célérité<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’orque ciblé gagne +2/+0 et acquiert la célérité jusqu’à la fin du tour.",
+        "RuleText": "Célérité<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: L’orque ciblé gagne +2/+0 et acquiert la célérité jusqu’à la fin du tour.",
         "flavorText": "Qu’y a-t-il ?<br>- Je ne suis pas sûr... des éclaireurs !",
         "pt": "2/2"
     },
@@ -2489,7 +2489,7 @@
         "name": "Arwen Undomiel",
         "type": "Créature Légendaire : Elfe et Humain ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> pour chaque elfe que vous contrôlez, et <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> pour chaque humain que vous contrôlez.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> pour chaque elfe que vous contrôlez, et <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> pour chaque humain que vous contrôlez.",
         "flavorText": "",
         "pt": "2/1"
     },
@@ -2534,7 +2534,7 @@
         "name": "Elrond, le Guerisseur",
         "type": "Créature Légendaire : Elfe et Humain ",
         "rarity": "rare",
-        "RuleText": "Défense talismanique<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Prévenez X blessures qui devraient être infligées à une créature ou un planeswalker ciblé et gagnez autant de points de vie que de blessures prévenues de cette manière.",
+        "RuleText": "Défense talismanique<br><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'>: Prévenez X blessures qui devraient être infligées à une créature ou un planeswalker ciblé et gagnez autant de points de vie que de blessures prévenues de cette manière.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2561,7 +2561,7 @@
         "name": "Eored",
         "type": "Enchantement",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, renvoyez une plaine que vous contrôlez dans la main de son propriétaire: Créez un jeton de créature 2/2 verte et blanche, Humain et Rohirim avec la charge.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, renvoyez une plaine que vous contrôlez dans la main de son propriétaire: Créez un jeton de créature 2/2 verte et blanche, Humain et Rohirim avec la charge.",
         "flavorText": "Rassemblez toutes les lances de toutes les provinces du Rohan ! Nous partons pour la guerre.",
         "pt": ""
     },
@@ -2570,7 +2570,7 @@
         "name": "Eowyn, Nièce du Roi",
         "type": "Créature Légendaire : Humain et Rohirim ",
         "rarity": "rare",
-        "RuleText": "Protection contre le noir<br>A chaque fois qu’au moins un marqueur +1/+1 est mis sur une autre créature que vous contrôlez, vous pouvez payer <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>. Si vous faites ainsi, mettez un marqueur +1/+1 sur Eowyn.",
+        "RuleText": "Protection contre le noir<br>A chaque fois qu’au moins un marqueur +1/+1 est mis sur une autre créature que vous contrôlez, vous pouvez payer <img src='/first-react-js/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>. Si vous faites ainsi, mettez un marqueur +1/+1 sur Eowyn.",
         "flavorText": "Les femmes de mon pays ont appris à se battre. Celles qui ne savaient pas manier une lame sont mortes depuis longtemps...",
         "pt": "2/2"
     },
@@ -2606,7 +2606,7 @@
         "name": "Galadrielle, la Pure",
         "type": "Créature Légendaire : Elfe et Sorcier ",
         "rarity": "mythicrare",
-        "RuleText": "Défense talismanique<br>A chaque fois qu’un adversaire lance un sort noir, vous perdez 1 point de vie et vous pouvez renvoyer une carte depuis votre cimetière dans votre main.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Regard X, où X est votre dévotion au vert et au blanc.",
+        "RuleText": "Défense talismanique<br>A chaque fois qu’un adversaire lance un sort noir, vous perdez 1 point de vie et vous pouvez renvoyer une carte depuis votre cimetière dans votre main.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Regard X, où X est votre dévotion au vert et au blanc.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2624,7 +2624,7 @@
         "name": "Gris-Poil",
         "type": "Créature Légendaire : Cheval ",
         "rarity": "rare",
-        "RuleText": "Célérité, traversée des plaines<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>: L’humain ou l’elfe ciblé gagne la célérité et la traversée des plaines jusqu’à la fin du tour.",
+        "RuleText": "Célérité, traversée des plaines<br><img src='/first-react-js/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>: L’humain ou l’elfe ciblé gagne la célérité et la traversée des plaines jusqu’à la fin du tour.",
         "flavorText": "C’est l’un des Méharas, à moins que mes yeux ne me jouent un tour.",
         "pt": "2/2"
     },
@@ -2678,7 +2678,7 @@
         "name": "Secours Attendu",
         "type": "Rituel",
         "rarity": "uncommon",
-        "RuleText": "Renvoyez jusqu’à trois plaines que vous contrôlez dans la main de leur propriétaire.<br>Créez autant de jetons de créature 2/2 blanc et vert, Humain et Rohirim avec la charge.<br>Suspension 3 — <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
+        "RuleText": "Renvoyez jusqu’à trois plaines que vous contrôlez dans la main de leur propriétaire.<br>Créez autant de jetons de créature 2/2 blanc et vert, Humain et Rohirim avec la charge.<br>Suspension 3 — <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>",
         "flavorText": "A l’aube du troisième jour, regardez vers l’est.",
         "pt": ""
     },
@@ -2840,7 +2840,7 @@
         "name": "Galadrielle, Sorcière Terrainifiante",
         "type": "Créature Légendaire : Elfe et Sorcier ",
         "rarity": "mythicrare",
-        "RuleText": "Indestructible<br>A chaque fois qu’un sort noir est lancé, surveillez 3.<br>A chaque fois qu’un sort vert est lancé vous pouvez renvoyer une carte non-verte de votre cimetière dans votre main.<br>A chaque fois qu’un sort blanc est lancé, vous pouvez exiler une carte de votre cimetière pour ajouter <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
+        "RuleText": "Indestructible<br>A chaque fois qu’un sort noir est lancé, surveillez 3.<br>A chaque fois qu’un sort vert est lancé vous pouvez renvoyer une carte non-verte de votre cimetière dans votre main.<br>A chaque fois qu’un sort blanc est lancé, vous pouvez exiler une carte de votre cimetière pour ajouter <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2849,7 +2849,7 @@
         "name": "Gandalf le Blanc",
         "type": "Planeswalker : Gandalf ",
         "rarity": "mythicrare",
-        "RuleText": "Vous pouvez renvoyer un permanent ciblé dans la main de son propriétaire. Si vous contrôliez ce permanent, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br>Cherchez dans votre bibliothèque une carte de créature dont la force de base est X, mettez-la sur le champ de bataille et mélangez.<br>Vous gagnez une emblème : “Les créatures que vous contrôlez gagnent +2/+2 et ont la défense talismanique et la vigilance.”",
+        "RuleText": "Vous pouvez renvoyer un permanent ciblé dans la main de son propriétaire. Si vous contrôliez ce permanent, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br>Cherchez dans votre bibliothèque une carte de créature dont la force de base est X, mettez-la sur le champ de bataille et mélangez.<br>Vous gagnez une emblème : “Les créatures que vous contrôlez gagnent +2/+2 et ont la défense talismanique et la vigilance.”",
         "flavorText": "",
         "pt": ""
     },
@@ -2867,7 +2867,7 @@
         "name": "Harad-Rim",
         "type": "Créature : Humain et Soldat ",
         "rarity": "uncommon",
-        "RuleText": "Persistance<br>Quand les Harad-Rim arrivent sur le champ de bataille, ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
+        "RuleText": "Persistance<br>Quand les Harad-Rim arrivent sur le champ de bataille, ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
         "flavorText": "",
         "pt": "2/2"
     },
@@ -2903,7 +2903,7 @@
         "name": "Saroumane le Multicolore",
         "type": "Planeswalker : Saroumane ",
         "rarity": "mythicrare",
-        "RuleText": "Dégagez jusqu’à quatre terrains. Jusqu’à la fn du tour, les terrains que vous contrôlez ont “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix”.<br>Cherchez une carte d’artéfact d’une valeur de mana inférieure ou égale à 4 dans votre bibliothèque, mettez-la sur le champ de bataille et mélangez.<br>Piochez 7 cartes, puis ajoutez 7 mana de la combinaison de couleurs de votre choix.",
+        "RuleText": "Dégagez jusqu’à quatre terrains. Jusqu’à la fn du tour, les terrains que vous contrôlez ont “<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix”.<br>Cherchez une carte d’artéfact d’une valeur de mana inférieure ou égale à 4 dans votre bibliothèque, mettez-la sur le champ de bataille et mélangez.<br>Piochez 7 cartes, puis ajoutez 7 mana de la combinaison de couleurs de votre choix.",
         "flavorText": "",
         "pt": ""
     },
@@ -2912,7 +2912,7 @@
         "name": "Archi le Borgne",
         "type": "Créature Légendaire : Orque et Assassin ",
         "rarity": "mythicrare",
-        "RuleText": "Traversée des montagnes, protection contre le blanc<br>Quand Archi le Borgne inflige des blessures de combat à un adversaire, détruisez le nain ciblé que ce joueur contrôle.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: La créature ciblée de force inférieure ou égale à celle d’Archi le Borgne devient un nain jusqu’à la fin du tour.",
+        "RuleText": "Traversée des montagnes, protection contre le blanc<br>Quand Archi le Borgne inflige des blessures de combat à un adversaire, détruisez le nain ciblé que ce joueur contrôle.<br><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: La créature ciblée de force inférieure ou égale à celle d’Archi le Borgne devient un nain jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": "3/3"
     },
@@ -2921,7 +2921,7 @@
         "name": "Logisticien Demi-Orque",
         "type": "Créature : Orque et Humain et Shamane ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Le Logisticien Demi-Orque vous inflige une blessure.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Le Logisticien Demi-Orque vous inflige une blessure.",
         "flavorText": "Mais nous n’avons pas assez de combustible pour faire brûler les fourneaux !",
         "pt": "2/2"
     },
@@ -2957,7 +2957,7 @@
         "name": "Bénédiction des Elfes",
         "type": "Enchantement",
         "rarity": "common",
-        "RuleText": "Quand la bénédiction des elfes arrive sur le champ de bataille, vous gagnez deux points de vie.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>, renvoyez la Bénédiction des Elfes dans votre main: Régénerez la créature non-noire ciblée. ",
+        "RuleText": "Quand la bénédiction des elfes arrive sur le champ de bataille, vous gagnez deux points de vie.<br><img src='/first-react-js/assets/mana/magic-mana-small-GW.png' alt='G/W' width='16' height='16'>, renvoyez la Bénédiction des Elfes dans votre main: Régénerez la créature non-noire ciblée. ",
         "flavorText": "",
         "pt": ""
     },
@@ -2975,7 +2975,7 @@
         "name": "Progéniture Promise",
         "type": "Enchantement",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, engagez un elfe et un humain que vous contrôlez: Créez un jeton de créature 2/1 verte et blanche Elfe et Humain avec la célérité et la vigilance.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, engagez un elfe et un humain que vous contrôlez: Créez un jeton de créature 2/1 verte et blanche Elfe et Humain avec la célérité et la vigilance.",
         "flavorText": "",
         "pt": ""
     },
@@ -2993,7 +2993,7 @@
         "name": "Armée des Morts",
         "type": "Rituel",
         "rarity": "rare",
-        "RuleText": "Exilez toutes les cartes de créature du cimetière du joueur ciblé et créez autant de jetons de créature 2/2 noire Spectre avec “<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'>: Régénérez cette créature”.",
+        "RuleText": "Exilez toutes les cartes de créature du cimetière du joueur ciblé et créez autant de jetons de créature 2/2 noire Spectre avec “<img src='/first-react-js/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'>: Régénérez cette créature”.",
         "flavorText": "",
         "pt": ""
     },
@@ -3011,7 +3011,7 @@
         "name": "Intendant du Gondor",
         "type": "Créature : Humain et Conseiller ",
         "rarity": "rare",
-        "RuleText": "A chaque fois qu’une créature ou un terrain que vous contrôlez quitte le champ de bataille, vous pouvez payer <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'> pour piochez une carte. Si <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> a été payé, l’adversaire ciblé gagne deux points de vie. Si <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> a été payé, vous perdez un point de vie.",
+        "RuleText": "A chaque fois qu’une créature ou un terrain que vous contrôlez quitte le champ de bataille, vous pouvez payer <img src='/first-react-js/assets/mana/magic-mana-small-WB.png' alt='W/B' width='16' height='16'> pour piochez une carte. Si <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> a été payé, l’adversaire ciblé gagne deux points de vie. Si <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> a été payé, vous perdez un point de vie.",
         "flavorText": "",
         "pt": "2/3"
     },
@@ -3047,7 +3047,7 @@
         "name": "Vieux Saule",
         "type": "Créature : Sylvin et Shamane ",
         "rarity": "rare",
-        "RuleText": "Défenseur<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Exilez la créature attaquante ciblée jusqu’à ce que Vieux Saule quitte le champ de bataille. Mettez un marqueur +1/+1 sur Vieux Saule.<br>Retirez un marqueur +1/+1 de Vieux Saule : Il perd le défenseur et gagne la vigilance jusqu’à la fin du tour.",
+        "RuleText": "Défenseur<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Exilez la créature attaquante ciblée jusqu’à ce que Vieux Saule quitte le champ de bataille. Mettez un marqueur +1/+1 sur Vieux Saule.<br>Retirez un marqueur +1/+1 de Vieux Saule : Il perd le défenseur et gagne la vigilance jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": "3/5"
     },
@@ -3074,7 +3074,7 @@
         "name": "Conducteur d’Oliphant",
         "type": "Créature : Humain et Soldat ",
         "rarity": "uncommon",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-RW.png' alt='R/W' width='16' height='16'>, engagez une créature non-humain que vous contrôlez: Le Conducteur d’Oliphant gagne +X/+X jusqu’à la fin du tour, où X est la force de la créature engagée.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-RW.png' alt='R/W' width='16' height='16'>, engagez une créature non-humain que vous contrôlez: Le Conducteur d’Oliphant gagne +X/+X jusqu’à la fin du tour, où X est la force de la créature engagée.",
         "flavorText": "",
         "pt": "3/2"
     },
@@ -3083,7 +3083,7 @@
         "name": "Bourg de Bree",
         "type": "Terrain : CitÉ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3092,7 +3092,7 @@
         "name": "Caras Galathon",
         "type": "Terrain Légendaire : CitÉ",
         "rarity": "rare",
-        "RuleText": "Caras Galathon arrive sur le champ de bataille engagé à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br>Tant que Caras Galathon est dégagé, les enchantements que vous contrôlez ont la défense talismanique.",
+        "RuleText": "Caras Galathon arrive sur le champ de bataille engagé à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br>Tant que Caras Galathon est dégagé, les enchantements que vous contrôlez ont la défense talismanique.",
         "flavorText": "",
         "pt": ""
     },
@@ -3101,7 +3101,7 @@
         "name": "Caverne de Gollum",
         "type": "Terrain Enchantement : Mar",
         "rarity": "rare",
-        "RuleText": "<i>(la Caverne de Gollum n’est pas un sort)</i><br>La Caverne de Gollum arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Regardez la carte du dessus de votre bibliothèque. Si c’est une carte d’artéfact, vous pouvez la révéler et la mettre dans votre main. Sinon, vous pouvez la mettre dans votre cimetière.",
+        "RuleText": "<i>(la Caverne de Gollum n’est pas un sort)</i><br>La Caverne de Gollum arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-2.png' alt='2' width='14' height='14'>: Regardez la carte du dessus de votre bibliothèque. Si c’est une carte d’artéfact, vous pouvez la révéler et la mettre dans votre main. Sinon, vous pouvez la mettre dans votre cimetière.",
         "flavorText": "",
         "pt": ""
     },
@@ -3110,7 +3110,7 @@
         "name": "Cirith Ungol",
         "type": "Terrain Légendaire : CitÉ",
         "rarity": "rare",
-        "RuleText": "Cirith Ungol arrive sur le champ de bataille engagée à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br>Tant que Cirith Ungol est dégagée, les créatures avec le grégaire que vous contrôlez perdent cette capacité.",
+        "RuleText": "Cirith Ungol arrive sur le champ de bataille engagée à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br>Tant que Cirith Ungol est dégagée, les créatures avec le grégaire que vous contrôlez perdent cette capacité.",
         "flavorText": "",
         "pt": ""
     },
@@ -3119,7 +3119,7 @@
         "name": "Cité de Dale",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3128,7 +3128,7 @@
         "name": "Cité de Gundabad",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3137,7 +3137,7 @@
         "name": "Cité d’Esgaroth",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3146,7 +3146,7 @@
         "name": "Cité d’Imladris",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3155,7 +3155,7 @@
         "name": "Cité d’Osgiliath",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3164,7 +3164,7 @@
         "name": "Cité du Royaume Sylvestre",
         "type": "Terrain : CitÉ",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3173,7 +3173,7 @@
         "name": "Désolation de Smaug",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "La Désolation de Smaug arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte blanche et une carte rouge de votre cimetière : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. ",
+        "RuleText": "La Désolation de Smaug arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte blanche et une carte rouge de votre cimetière : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>. ",
         "flavorText": "",
         "pt": ""
     },
@@ -3182,7 +3182,7 @@
         "name": "Dol-Guldur, Colline de la Sorcellerie",
         "type": "Terrain Légendaire : Cité et Monta",
         "rarity": "rare",
-        "RuleText": "Quand Dol-Guldur arrive sur le champ de bataille, renvoyez une montagne ou un marais dégagé que vous contrôlez dans la main de son propriétaire.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "Quand Dol-Guldur arrive sur le champ de bataille, renvoyez une montagne ou un marais dégagé que vous contrôlez dans la main de son propriétaire.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3191,7 +3191,7 @@
         "name": "Emin Muil",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "Emin Muil arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. <br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte rouge et une carte noire de votre cimetière: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
+        "RuleText": "Emin Muil arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. <br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte rouge et une carte noire de votre cimetière: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3200,7 +3200,7 @@
         "name": "Fangorn",
         "type": "Terrain Enchantement : ForÉ3",
         "rarity": "rare",
-        "RuleText": "<i>(Fangorn n’est pas un sort)</i><br>Fangorn arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: La forêt ciblée devient une créature 4/4 verte jusqu’à la fin du tour. Elle garde ses autres types et capacités.",
+        "RuleText": "<i>(Fangorn n’est pas un sort)</i><br>Fangorn arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>: La forêt ciblée devient une créature 4/4 verte jusqu’à la fin du tour. Elle garde ses autres types et capacités.",
         "flavorText": "",
         "pt": ""
     },
@@ -3209,7 +3209,7 @@
         "name": "Fondcombe",
         "type": "Terrain Légendaire : Cité et ForÉ3",
         "rarity": "rare",
-        "RuleText": "Quand Fondcombe arrive sur le champ de bataille, renvoyez une plaine ou une forêt dégagée que vous contrôlez dans la main de son propriétaire.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "Quand Fondcombe arrive sur le champ de bataille, renvoyez une plaine ou une forêt dégagée que vous contrôlez dans la main de son propriétaire.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3218,7 +3218,7 @@
         "name": "Forêt Noire",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "La Forêt Noire arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte noire de votre cimetière: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
+        "RuleText": "La Forêt Noire arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte noire de votre cimetière: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3227,7 +3227,7 @@
         "name": "Forteresse de Barad-Dûr",
         "type": "Terrain : CitÉ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'><br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3236,7 +3236,7 @@
         "name": "Gondor",
         "type": "Terrain Légendaire : Pla",
         "rarity": "rare",
-        "RuleText": "Quand le Gondor arrive sur le champ de bataille, sacrifiez une plaine.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez le Gondor : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
+        "RuleText": "Quand le Gondor arrive sur le champ de bataille, sacrifiez une plaine.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez le Gondor : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3245,7 +3245,7 @@
         "name": "Gouffre de Helm",
         "type": "Terrain Légendaire : CitÉ",
         "rarity": "rare",
-        "RuleText": "Le Gouffre de Helm arrive sur le champ de bataille engagé à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br>Tant que le Gouffre de Helm est dégagé, les humains dégagés que vous contrôlez gagnent +0/+1.",
+        "RuleText": "Le Gouffre de Helm arrive sur le champ de bataille engagé à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br>Tant que le Gouffre de Helm est dégagé, les humains dégagés que vous contrôlez gagnent +0/+1.",
         "flavorText": "",
         "pt": ""
     },
@@ -3254,7 +3254,7 @@
         "name": "Hauts des Galgals",
         "type": "Terrain Légendaire : CitÉ",
         "rarity": "rare",
-        "RuleText": "Les Hauts de Galgals arrivent sur le champ de bataille engagés à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br>Tant que les Hauts de Galgals sont dégagés, les créatures avec une endurance de 1 ne peuvent pas vous attaquer à moins que leur contrôleur ne paie <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>.",
+        "RuleText": "Les Hauts de Galgals arrivent sur le champ de bataille engagés à moins que vous n’exiliez les 7 cartes du dessous de votre bibliothèque.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br>Tant que les Hauts de Galgals sont dégagés, les créatures avec une endurance de 1 ne peuvent pas vous attaquer à moins que leur contrôleur ne paie <img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3263,7 +3263,7 @@
         "name": "Isengard",
         "type": "Terrain Légenda",
         "rarity": "mythicrare",
-        "RuleText": "Quand l’Isengard arrive sur le champ de bataille, engagez tous les terrains que vous contrôlez.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.",
+        "RuleText": "Quand l’Isengard arrive sur le champ de bataille, engagez tous les terrains que vous contrôlez.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez un mana de la couleur de votre choix.",
         "flavorText": "",
         "pt": ""
     },
@@ -3272,7 +3272,7 @@
         "name": "Ithilien",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "L’Ithilien arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. <br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte rouge de votre cimetière: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. ",
+        "RuleText": "L’Ithilien arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. <br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte rouge de votre cimetière: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. ",
         "flavorText": "",
         "pt": ""
     },
@@ -3281,7 +3281,7 @@
         "name": "Khazad-Dûm",
         "type": "Terrain Légendaire : Monta",
         "rarity": "rare",
-        "RuleText": "Quand Khazad-Dûm arrive sur le champ de bataille, sacrifiez une montagne.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez Khazad-Dûm : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
+        "RuleText": "Quand Khazad-Dûm arrive sur le champ de bataille, sacrifiez une montagne.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez Khazad-Dûm : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3290,7 +3290,7 @@
         "name": "La Comté",
         "type": "Terrain Enchantement : Pla",
         "rarity": "rare",
-        "RuleText": "<i>(La Comté n’est pas un sort)</i><br>La Comté arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Melangez une carte blanche de votre cimetière à votre bibliothèque. Si vous faites ainsi, créez un jeton de créature 0/2 blanche Hobbit.",
+        "RuleText": "<i>(La Comté n’est pas un sort)</i><br>La Comté arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Melangez une carte blanche de votre cimetière à votre bibliothèque. Si vous faites ainsi, créez un jeton de créature 0/2 blanche Hobbit.",
         "flavorText": "",
         "pt": ""
     },
@@ -3299,7 +3299,7 @@
         "name": "Lorien",
         "type": "Terrain Légendaire : ForÉ3",
         "rarity": "rare",
-        "RuleText": "Quand la Lorien arrive sur le champ de bataille, sacrifiez une forêt.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez la Lorien : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
+        "RuleText": "Quand la Lorien arrive sur le champ de bataille, sacrifiez une forêt.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez la Lorien : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3308,7 +3308,7 @@
         "name": "Marais des Morts",
         "type": "Terrain",
         "rarity": "rare",
-        "RuleText": "Le Marais des Morts arrive sur le champ de bataille engagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante blanche ou noire ciblée gagne +1/+0 jusqu’à la fin du tour.",
+        "RuleText": "Le Marais des Morts arrive sur le champ de bataille engagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante blanche ou noire ciblée gagne +1/+0 jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": ""
     },
@@ -3317,7 +3317,7 @@
         "name": "Minas Morgûl",
         "type": "Terrain Légendaire : Cité et Mar",
         "rarity": "rare",
-        "RuleText": "Quand Minas Morgûl arrive sur le champ de bataille, renvoyez une plaine ou un marais dégagé que vous contrôlez dans la main de son propriétaire.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "Quand Minas Morgûl arrive sur le champ de bataille, renvoyez une plaine ou un marais dégagé que vous contrôlez dans la main de son propriétaire.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3326,7 +3326,7 @@
         "name": "Minas Tirith",
         "type": "Terrain Légendaire : Cité et Pla",
         "rarity": "rare",
-        "RuleText": "Quand Minas Tirith arrive sur le champ de bataille, renvoyez une plaine ou une montagne dégagée que vous contrôlez dans la main de son propriétaire.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
+        "RuleText": "Quand Minas Tirith arrive sur le champ de bataille, renvoyez une plaine ou une montagne dégagée que vous contrôlez dans la main de son propriétaire.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 2 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3335,7 +3335,7 @@
         "name": "Montagne du Destin",
         "type": "Terrain",
         "rarity": "rare",
-        "RuleText": "La Montagne du Destin arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante rouge ou noire ciblée gagne +1/+0 jusqu’à la fin du tour.",
+        "RuleText": "La Montagne du Destin arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante rouge ou noire ciblée gagne +1/+0 jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": ""
     },
@@ -3344,7 +3344,7 @@
         "name": "Montagne Mouvante",
         "type": "Terrain Enchantement : Monta",
         "rarity": "rare",
-        "RuleText": "<i>(la montagne mouvante n’est pas un sort)</i><br>La Montagne Mouvante arrive sur le champ de bataille engagée.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Jusqu’à la fin du tour, la Montagne Mouvante devient une créature X/X rouge Elemental et Géant avec la portée et le piétinement. Elle garde tous ses types et capacités.",
+        "RuleText": "<i>(la montagne mouvante n’est pas un sort)</i><br>La Montagne Mouvante arrive sur le champ de bataille engagée.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-X.png' alt='X' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>: Jusqu’à la fin du tour, la Montagne Mouvante devient une créature X/X rouge Elemental et Géant avec la portée et le piétinement. Elle garde tous ses types et capacités.",
         "flavorText": "",
         "pt": ""
     },
@@ -3353,7 +3353,7 @@
         "name": "Mordor",
         "type": "Terrain Légendaire : Mar",
         "rarity": "rare",
-        "RuleText": "Quand le Mordor arrive sur le champ de bataille, sacrifiez un marais.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez le Mordor : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
+        "RuleText": "Quand le Mordor arrive sur le champ de bataille, sacrifiez un marais.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez le Mordor : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3362,7 +3362,7 @@
         "name": "Palais d’Erebor",
         "type": "Terrain Légendaire : CitÉ",
         "rarity": "mythicrare",
-        "RuleText": "Quand le Palais d’Erebor arrive sur le champ de bataille, exilez les 7 cartes du dessous de votre bibliothèque. Vous poivez révéler une carte d’artéfact parmi ces cartes. Si vous ne le faites pas, le Palais d’Erebor arrive sur le champ de bataille engagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
+        "RuleText": "Quand le Palais d’Erebor arrive sur le champ de bataille, exilez les 7 cartes du dessous de votre bibliothèque. Vous poivez révéler une carte d’artéfact parmi ces cartes. Si vous ne le faites pas, le Palais d’Erebor arrive sur le champ de bataille engagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
         "flavorText": "Ah, Frodon, Erebor ! La splendeur de cette ville fortifiée bâtie au sein même de la montagne était légendaire.",
         "pt": ""
     },
@@ -3371,7 +3371,7 @@
         "name": "Plateau de Gorgoroth ",
         "type": "Terrain",
         "rarity": "rare",
-        "RuleText": "Le Plateau de Gorgoroth arrive sur le champ de bataille engagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante rouge ou blanche ciblée gagne +1/+0 jusqu’à la fin du tour.",
+        "RuleText": "Le Plateau de Gorgoroth arrive sur le champ de bataille engagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante rouge ou blanche ciblée gagne +1/+0 jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": ""
     },
@@ -3380,7 +3380,7 @@
         "name": "Port des Havres Gris",
         "type": "Terrain : CitÉ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez 1<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez 1<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     },
@@ -3389,7 +3389,7 @@
         "name": "Riddermark",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "Le Riddermark arrive sur le champ de bataille engagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. <br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte blanche de votre cimetière: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
+        "RuleText": "Le Riddermark arrive sur le champ de bataille engagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>. <br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte verte et une carte blanche de votre cimetière: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3398,7 +3398,7 @@
         "name": "Rohan",
         "type": "Terrain",
         "rarity": "rare",
-        "RuleText": "Le Rohan arrive sur le champ de bataille engagé.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante blanche ou verte ciblée gagne +1/+0 jusqu’à la fin du tour.",
+        "RuleText": "Le Rohan arrive sur le champ de bataille engagé.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-1.png' alt='1' width='14' height='14'>: La créature attaquante blanche ou verte ciblée gagne +1/+0 jusqu’à la fin du tour.",
         "flavorText": "",
         "pt": ""
     },
@@ -3407,7 +3407,7 @@
         "name": "Terraine du Milieu",
         "type": "Terrain",
         "rarity": "common",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez la Terraine du Milieu, payez 1 point de vie: Cherchez dans votre bibliothèque une carte de terrain non-légendaire, et mettez-la sur le champ de bataille engagée.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, sacrifiez la Terraine du Milieu, payez 1 point de vie: Cherchez dans votre bibliothèque une carte de terrain non-légendaire, et mettez-la sur le champ de bataille engagée.",
         "flavorText": "",
         "pt": ""
     },
@@ -3416,7 +3416,7 @@
         "name": "Terraines Désolées",
         "type": "Terrain",
         "rarity": "uncommon",
-        "RuleText": "Les Terraines Désolées arrivent sur le champ de bataille engagées.<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. <br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte blanche et une carte noire de votre cimetière : Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
+        "RuleText": "Les Terraines Désolées arrivent sur le champ de bataille engagées.<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. <br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>, exilez une carte blanche et une carte noire de votre cimetière : Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-W.png' alt='W' width='14' height='14'><img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>.",
         "flavorText": "",
         "pt": ""
     },
@@ -3425,7 +3425,7 @@
         "name": "Ville des Gobelins",
         "type": "Terrain : CitÉ",
         "rarity": "rare",
-        "RuleText": "<img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez 1<br><img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='${process.env.PUBLIC_URL}/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
+        "RuleText": "<img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez 1<br><img src='/first-react-js/assets/mana/magic-mana-small-T.png' alt='T' width='14' height='14'>: Ajoutez <img src='/first-react-js/assets/mana/magic-mana-small-G.png' alt='G' width='14' height='14'>, <img src='/first-react-js/assets/mana/magic-mana-small-R.png' alt='R' width='14' height='14'> ou <img src='/first-react-js/assets/mana/magic-mana-small-B.png' alt='B' width='14' height='14'>. Exilez les 3 cartes du dessous de votre bibliothèque.",
         "flavorText": "",
         "pt": ""
     }
