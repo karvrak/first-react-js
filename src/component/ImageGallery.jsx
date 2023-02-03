@@ -16,7 +16,7 @@ export function ImageGallery({currentPage}) {
     
             
               
-                <Link to={`../overview/${indexOfFirstImg+i+1}`}>
+                <Link to={`/overview/${indexOfFirstImg+i+1}`}>
                   <img 
                
                   style={imageStyleBrowser}
