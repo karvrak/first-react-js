@@ -31,7 +31,7 @@ export function ImageDesc({imageId}) {
       <h2>{card.name}</h2>
       <p> {card.type}</p>
       <img 
-              src={`../assets/setSymbol/set-symbol-${card.rarity}.png`} 
+              src={`${process.env.PUBLIC_URL}/assets/setSymbol/set-symbol-${card.rarity}.png`} 
               alt={`rarity : ${card.rarity}`} 
       /> <br/>
 
