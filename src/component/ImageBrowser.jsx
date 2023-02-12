@@ -1,7 +1,7 @@
-import { imageStyleOverview, containerAnime, CardAnime, ContentAnime, GlowAnime } from '../config/style';
+import { imageStyleOverview, containerAnime, CardAnimeB, ContentAnime, GlowAnime } from '../config/style';
 import React, { useRef } from 'react';
 
-export function ImageOverview({imageId}) {
+export function ImageBrowser({imageId}) {
 
   const cardRef = useRef();
   
@@ -36,7 +36,7 @@ export function ImageOverview({imageId}) {
 
   return (
     <div style={containerAnime} >
-      <div ref={cardRef} style={CardAnime} id={imageId} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+      <div ref={cardRef} style={CardAnimeB} id={imageId} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
           <div style={ContentAnime} >
             
             <img 

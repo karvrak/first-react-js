@@ -12,9 +12,7 @@ export function Overview(){
     return (
         <div style=  {background}>
             <Header/>
-
             
-
             <div style={OverviewFlex}>
             <ImageOverview  imageId={imageId}/>
             <ErrorBoundary>

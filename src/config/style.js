@@ -145,3 +145,11 @@ export const imageStyleOverview = {
     objectFit: "cover",
 
 }
+
+export const CardAnimeB = {   
+    width: "235px",
+    height: "333px",
+    perspective: "1200px",
+
+
+}
